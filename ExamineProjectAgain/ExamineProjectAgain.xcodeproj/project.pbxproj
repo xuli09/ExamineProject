@@ -101,13 +101,18 @@
 		BD9972B81C0F36CC00370820 /* ExamineProjectAgain */ = {
 			isa = PBXGroup;
 			children = (
+				BD9973071C0F3FD100370820 /* Other */,
+				BD9973061C0F3FC000370820 /* Sources */,
+				BD9973051C0F3FA700370820 /* View */,
+				BD9973041C0F3F8C00370820 /* Storage */,
+				BD9973031C0F3F8500370820 /* Parser */,
+				BD9973021C0F3F7200370820 /* Net */,
+				BD9973011C0F3F6300370820 /* Model */,
+				BD9973001C0F3F5B00370820 /* Libs */,
+				BD9972FF1C0F3F4800370820 /* Common */,
 				BD9972BC1C0F36CC00370820 /* AppDelegate.h */,
 				BD9972BD1C0F36CC00370820 /* AppDelegate.m */,
-				BD9972BF1C0F36CC00370820 /* ViewController.h */,
-				BD9972C01C0F36CC00370820 /* ViewController.m */,
-				BD9972C21C0F36CC00370820 /* Main.storyboard */,
 				BD9972C51C0F36CC00370820 /* Assets.xcassets */,
-				BD9972C71C0F36CC00370820 /* LaunchScreen.storyboard */,
 				BD9972CA1C0F36CC00370820 /* Info.plist */,
 				BD9972B91C0F36CC00370820 /* Supporting Files */,
 			);
@@ -138,6 +143,73 @@
 				BD9972E01C0F36CC00370820 /* Info.plist */,
 			);
 			path = ExamineProjectAgainUITests;
+			sourceTree = "<group>";
+		};
+		BD9972FF1C0F3F4800370820 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BD9973001C0F3F5B00370820 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		BD9973011C0F3F6300370820 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD9973021C0F3F7200370820 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		BD9973031C0F3F8500370820 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		BD9973041C0F3F8C00370820 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		BD9973051C0F3FA700370820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD9973061C0F3FC000370820 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		BD9973071C0F3FD100370820 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BD9972C71C0F36CC00370820 /* LaunchScreen.storyboard */,
+				BD9972BF1C0F36CC00370820 /* ViewController.h */,
+				BD9972C01C0F36CC00370820 /* ViewController.m */,
+				BD9972C21C0F36CC00370820 /* Main.storyboard */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +570,7 @@
 				BD9972E51C0F36CC00370820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD9972E61C0F36CC00370820 /* Build configuration list for PBXNativeTarget "ExamineProjectAgainTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +579,7 @@
 				BD9972E81C0F36CC00370820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD9972E91C0F36CC00370820 /* Build configuration list for PBXNativeTarget "ExamineProjectAgainUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +588,7 @@
 				BD9972EB1C0F36CC00370820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
