@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6A13291C2399F900B12291 /* tab_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13211C2399F900B12291 /* tab_0.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132A1C2399F900B12291 /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13221C2399F900B12291 /* tab_1.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132B1C2399F900B12291 /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13231C2399F900B12291 /* tab_2.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132C1C2399F900B12291 /* tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13241C2399F900B12291 /* tab_3.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13251C2399F900B12291 /* tab_c0.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13261C2399F900B12291 /* tab_c1.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A132F1C2399F900B12291 /* tab_c2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13271C2399F900B12291 /* tab_c2.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A13301C2399F900B12291 /* tab_c3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13281C2399F900B12291 /* tab_c3.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13321C239A4100B12291 /* XLGKTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13351C239A6600B12291 /* XLGKRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A133F1C239C0A00B12291 /* tabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133D1C239C0A00B12291 /* tabbar_bg.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A13401C239C0A00B12291 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133E1C239C0A00B12291 /* tabbar_bg@2x.png */; settings = {ASSET_TAGS = (); }; };
+		BD6A13421C239CD600B12291 /* TabContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13411C239CD600B12291 /* TabContent.plist */; settings = {ASSET_TAGS = (); }; };
+		BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13441C239D7400B12291 /* XLGKSearchController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */; settings = {ASSET_TAGS = (); }; };
+		BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */; settings = {ASSET_TAGS = (); }; };
+		BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */; settings = {ASSET_TAGS = (); }; };
 		BD9972BB1C0F36CC00370820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BA1C0F36CC00370820 /* main.m */; };
 		BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BD1C0F36CC00370820 /* AppDelegate.m */; };
 		BD9972C11C0F36CC00370820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972C01C0F36CC00370820 /* ViewController.m */; };
@@ -35,6 +57,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD6A13211C2399F900B12291 /* tab_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_0.png; sourceTree = "<group>"; };
+		BD6A13221C2399F900B12291 /* tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_1.png; sourceTree = "<group>"; };
+		BD6A13231C2399F900B12291 /* tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_2.png; sourceTree = "<group>"; };
+		BD6A13241C2399F900B12291 /* tab_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_3.png; sourceTree = "<group>"; };
+		BD6A13251C2399F900B12291 /* tab_c0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c0.png; sourceTree = "<group>"; };
+		BD6A13261C2399F900B12291 /* tab_c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c1.png; sourceTree = "<group>"; };
+		BD6A13271C2399F900B12291 /* tab_c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c2.png; sourceTree = "<group>"; };
+		BD6A13281C2399F900B12291 /* tab_c3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_c3.png; sourceTree = "<group>"; };
+		BD6A13311C239A4100B12291 /* XLGKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKTabBarController.h; sourceTree = "<group>"; };
+		BD6A13321C239A4100B12291 /* XLGKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKTabBarController.m; sourceTree = "<group>"; };
+		BD6A13341C239A6600B12291 /* XLGKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKRootViewController.h; sourceTree = "<group>"; };
+		BD6A13351C239A6600B12291 /* XLGKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKRootViewController.m; sourceTree = "<group>"; };
+		BD6A13371C239ACF00B12291 /* XLGKGoodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKGoodsViewController.h; sourceTree = "<group>"; };
+		BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKGoodsViewController.m; sourceTree = "<group>"; };
+		BD6A133A1C239B5A00B12291 /* XLGKPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKPictureController.h; sourceTree = "<group>"; };
+		BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKPictureController.m; sourceTree = "<group>"; };
+		BD6A133D1C239C0A00B12291 /* tabbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bg.png; sourceTree = "<group>"; };
+		BD6A133E1C239C0A00B12291 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		BD6A13411C239CD600B12291 /* TabContent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabContent.plist; sourceTree = "<group>"; };
+		BD6A13431C239D7400B12291 /* XLGKSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKSearchController.h; sourceTree = "<group>"; };
+		BD6A13441C239D7400B12291 /* XLGKSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKSearchController.m; sourceTree = "<group>"; };
+		BD6A13461C239D8F00B12291 /* XLGKOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKOtherViewController.h; sourceTree = "<group>"; };
+		BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKOtherViewController.m; sourceTree = "<group>"; };
+		BD6A13491C239DAC00B12291 /* XLGKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKSettingViewController.h; sourceTree = "<group>"; };
+		BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKSettingViewController.m; sourceTree = "<group>"; };
+		BD6A13521C23AD0B00B12291 /* XLGKGoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKGoodsCell.h; sourceTree = "<group>"; };
+		BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKGoodsCell.m; sourceTree = "<group>"; };
+		BD6A13551C23AD1E00B12291 /* XLGKPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKPictureCell.h; sourceTree = "<group>"; };
+		BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKPictureCell.m; sourceTree = "<group>"; };
+		BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLGKGoodsCell.xib; sourceTree = "<group>"; };
+		BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLGKPictureCell.xib; sourceTree = "<group>"; };
 		BD9972B61C0F36CC00370820 /* ExamineProjectAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamineProjectAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9972BA1C0F36CC00370820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD9972BC1C0F36CC00370820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +131,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD6A131F1C23955700B12291 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A13311C239A4100B12291 /* XLGKTabBarController.h */,
+				BD6A13321C239A4100B12291 /* XLGKTabBarController.m */,
+				BD6A13341C239A6600B12291 /* XLGKRootViewController.h */,
+				BD6A13351C239A6600B12291 /* XLGKRootViewController.m */,
+				BD6A13371C239ACF00B12291 /* XLGKGoodsViewController.h */,
+				BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */,
+				BD6A133A1C239B5A00B12291 /* XLGKPictureController.h */,
+				BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */,
+				BD6A13431C239D7400B12291 /* XLGKSearchController.h */,
+				BD6A13441C239D7400B12291 /* XLGKSearchController.m */,
+				BD6A13461C239D8F00B12291 /* XLGKOtherViewController.h */,
+				BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */,
+				BD6A13491C239DAC00B12291 /* XLGKSettingViewController.h */,
+				BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD6A13201C2399F900B12291 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A13211C2399F900B12291 /* tab_0.png */,
+				BD6A13221C2399F900B12291 /* tab_1.png */,
+				BD6A13231C2399F900B12291 /* tab_2.png */,
+				BD6A13241C2399F900B12291 /* tab_3.png */,
+				BD6A13251C2399F900B12291 /* tab_c0.png */,
+				BD6A13261C2399F900B12291 /* tab_c1.png */,
+				BD6A13271C2399F900B12291 /* tab_c2.png */,
+				BD6A13281C2399F900B12291 /* tab_c3.png */,
+				BD6A133D1C239C0A00B12291 /* tabbar_bg.png */,
+				BD6A133E1C239C0A00B12291 /* tabbar_bg@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BD9972AD1C0F36CC00370820 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +192,7 @@
 		BD9972B81C0F36CC00370820 /* ExamineProjectAgain */ = {
 			isa = PBXGroup;
 			children = (
+				BD6A131F1C23955700B12291 /* Controller */,
 				BD9973071C0F3FD100370820 /* Other */,
 				BD9973061C0F3FC000370820 /* Sources */,
 				BD9973051C0F3FA700370820 /* View */,
@@ -190,6 +282,12 @@
 		BD9973051C0F3FA700370820 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD6A13521C23AD0B00B12291 /* XLGKGoodsCell.h */,
+				BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */,
+				BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */,
+				BD6A13551C23AD1E00B12291 /* XLGKPictureCell.h */,
+				BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */,
+				BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -197,6 +295,8 @@
 		BD9973061C0F3FC000370820 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BD6A13201C2399F900B12291 /* images */,
+				BD6A13411C239CD600B12291 /* TabContent.plist */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -315,8 +415,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A133F1C239C0A00B12291 /* tabbar_bg.png in Resources */,
+				BD6A132F1C2399F900B12291 /* tab_c2.png in Resources */,
 				BD9972C91C0F36CC00370820 /* LaunchScreen.storyboard in Resources */,
 				BD9972C61C0F36CC00370820 /* Assets.xcassets in Resources */,
+				BD6A132B1C2399F900B12291 /* tab_2.png in Resources */,
+				BD6A132C1C2399F900B12291 /* tab_3.png in Resources */,
+				BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */,
+				BD6A13421C239CD600B12291 /* TabContent.plist in Resources */,
+				BD6A13401C239C0A00B12291 /* tabbar_bg@2x.png in Resources */,
+				BD6A13291C2399F900B12291 /* tab_0.png in Resources */,
+				BD6A13301C2399F900B12291 /* tab_c3.png in Resources */,
+				BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */,
+				BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */,
+				BD6A132A1C2399F900B12291 /* tab_1.png in Resources */,
+				BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */,
 				BD9972C41C0F36CC00370820 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +455,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */,
 				BD9972C11C0F36CC00370820 /* ViewController.m in Sources */,
+				BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */,
+				BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */,
+				BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */,
+				BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */,
 				BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */,
 				BD9972BB1C0F36CC00370820 /* main.m in Sources */,
+				BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */,
+				BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */,
+				BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */,
+				BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
