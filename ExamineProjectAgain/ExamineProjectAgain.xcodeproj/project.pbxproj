@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD6A13291C2399F900B12291 /* tab_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13211C2399F900B12291 /* tab_0.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132A1C2399F900B12291 /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13221C2399F900B12291 /* tab_1.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132B1C2399F900B12291 /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13231C2399F900B12291 /* tab_2.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132C1C2399F900B12291 /* tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13241C2399F900B12291 /* tab_3.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13251C2399F900B12291 /* tab_c0.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13261C2399F900B12291 /* tab_c1.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A132F1C2399F900B12291 /* tab_c2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13271C2399F900B12291 /* tab_c2.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A13301C2399F900B12291 /* tab_c3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13281C2399F900B12291 /* tab_c3.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13321C239A4100B12291 /* XLGKTabBarController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13351C239A6600B12291 /* XLGKRootViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A133F1C239C0A00B12291 /* tabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133D1C239C0A00B12291 /* tabbar_bg.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A13401C239C0A00B12291 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133E1C239C0A00B12291 /* tabbar_bg@2x.png */; settings = {ASSET_TAGS = (); }; };
-		BD6A13421C239CD600B12291 /* TabContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13411C239CD600B12291 /* TabContent.plist */; settings = {ASSET_TAGS = (); }; };
-		BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13441C239D7400B12291 /* XLGKSearchController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */; settings = {ASSET_TAGS = (); }; };
-		BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */; settings = {ASSET_TAGS = (); }; };
-		BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */; settings = {ASSET_TAGS = (); }; };
+		BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */; };
+		BD33A3E41C27938F0067FD90 /* XLGKAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E31C27938F0067FD90 /* XLGKAppInfo.m */; };
+		BD33A3E81C279A0A0067FD90 /* AHReach.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E71C279A0A0067FD90 /* AHReach.m */; };
+		BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD33A3EA1C279A700067FD90 /* SystemConfiguration.framework */; };
+		BD6A13291C2399F900B12291 /* tab_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13211C2399F900B12291 /* tab_0.png */; };
+		BD6A132A1C2399F900B12291 /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13221C2399F900B12291 /* tab_1.png */; };
+		BD6A132B1C2399F900B12291 /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13231C2399F900B12291 /* tab_2.png */; };
+		BD6A132C1C2399F900B12291 /* tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13241C2399F900B12291 /* tab_3.png */; };
+		BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13251C2399F900B12291 /* tab_c0.png */; };
+		BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13261C2399F900B12291 /* tab_c1.png */; };
+		BD6A132F1C2399F900B12291 /* tab_c2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13271C2399F900B12291 /* tab_c2.png */; };
+		BD6A13301C2399F900B12291 /* tab_c3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13281C2399F900B12291 /* tab_c3.png */; };
+		BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13321C239A4100B12291 /* XLGKTabBarController.m */; };
+		BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13351C239A6600B12291 /* XLGKRootViewController.m */; };
+		BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */; };
+		BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */; };
+		BD6A133F1C239C0A00B12291 /* tabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133D1C239C0A00B12291 /* tabbar_bg.png */; };
+		BD6A13401C239C0A00B12291 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A133E1C239C0A00B12291 /* tabbar_bg@2x.png */; };
+		BD6A13421C239CD600B12291 /* TabContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13411C239CD600B12291 /* TabContent.plist */; };
+		BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13441C239D7400B12291 /* XLGKSearchController.m */; };
+		BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */; };
+		BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */; };
+		BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */; };
+		BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */; };
+		BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */; };
+		BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */; };
 		BD9972BB1C0F36CC00370820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BA1C0F36CC00370820 /* main.m */; };
 		BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BD1C0F36CC00370820 /* AppDelegate.m */; };
 		BD9972C11C0F36CC00370820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972C01C0F36CC00370820 /* ViewController.m */; };
@@ -57,6 +61,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD33A3DE1C27905A0067FD90 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKRequestInfo.h; sourceTree = "<group>"; };
+		BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKRequestInfo.m; sourceTree = "<group>"; };
+		BD33A3E21C27938F0067FD90 /* XLGKAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKAppInfo.h; sourceTree = "<group>"; };
+		BD33A3E31C27938F0067FD90 /* XLGKAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKAppInfo.m; sourceTree = "<group>"; };
+		BD33A3E61C279A0A0067FD90 /* AHReach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHReach.h; sourceTree = "<group>"; };
+		BD33A3E71C279A0A0067FD90 /* AHReach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHReach.m; sourceTree = "<group>"; };
+		BD33A3EA1C279A700067FD90 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BD6A13211C2399F900B12291 /* tab_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_0.png; sourceTree = "<group>"; };
 		BD6A13221C2399F900B12291 /* tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_1.png; sourceTree = "<group>"; };
 		BD6A13231C2399F900B12291 /* tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_2.png; sourceTree = "<group>"; };
@@ -111,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +144,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD33A3E51C2799E00067FD90 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BD33A3E61C279A0A0067FD90 /* AHReach.h */,
+				BD33A3E71C279A0A0067FD90 /* AHReach.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		BD33A3E91C279A440067FD90 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				BD33A3EA1C279A700067FD90 /* SystemConfiguration.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
 		BD6A131F1C23955700B12291 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +222,7 @@
 		BD9972B81C0F36CC00370820 /* ExamineProjectAgain */ = {
 			isa = PBXGroup;
 			children = (
+				BD33A3E91C279A440067FD90 /* FrameWorks */,
 				BD6A131F1C23955700B12291 /* Controller */,
 				BD9973071C0F3FD100370820 /* Other */,
 				BD9973061C0F3FC000370820 /* Sources */,
@@ -240,6 +271,7 @@
 		BD9972FF1C0F3F4800370820 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BD33A3DE1C27905A0067FD90 /* Header.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -254,6 +286,10 @@
 		BD9973011C0F3F6300370820 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */,
+				BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */,
+				BD33A3E21C27938F0067FD90 /* XLGKAppInfo.h */,
+				BD33A3E31C27938F0067FD90 /* XLGKAppInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -261,6 +297,7 @@
 		BD9973021C0F3F7200370820 /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				BD33A3E51C2799E00067FD90 /* Reachability */,
 			);
 			name = Net;
 			sourceTree = "<group>";
@@ -456,9 +493,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */,
+				BD33A3E81C279A0A0067FD90 /* AHReach.m in Sources */,
 				BD9972C11C0F36CC00370820 /* ViewController.m in Sources */,
 				BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */,
+				BD33A3E41C27938F0067FD90 /* XLGKAppInfo.m in Sources */,
 				BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */,
+				BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */,
 				BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */,
 				BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */,
 				BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */,
