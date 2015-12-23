@@ -41,6 +41,9 @@
     [self.myScrollView addSubview:goods.view];
     [self.myScrollView addSubview:picture.view];
     
+    [self addChildViewController:goods];
+    [self addChildViewController:picture];
+    
     //设置每个视图的显示位置
     goods.view.frame = CGRectMake(0, 0, WIDTH, HEIGHT - 64);
     picture.view.frame = CGRectMake(WIDTH, 0, WIDTH, HEIGHT - 64);

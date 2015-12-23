@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class XLGKGoodsInfo;
+
 @interface XLGKGoodsCell : UITableViewCell
 //显示商品的图片信息
 @property (strong, nonatomic) IBOutlet UIImageView *goodsImageView;
@@ -17,5 +19,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *collectionLabel;
 //显示商品的上架时间
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
+
+
+//接收显示的数据
+-(void)showInfoEveryGoods:(XLGKGoodsInfo *)goods;
 
 @end

@@ -8,6 +8,12 @@
 
 #import "XLGKTabBarController.h"
 
+
+@interface XLGKTabBarController ()
+
+
+@end
+
 @implementation XLGKTabBarController
 -(void)viewDidLoad
 {
