@@ -13,16 +13,29 @@
 		BD260F561C2B835A00539FC1 /* ni_png_0072.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260F521C2B835A00539FC1 /* ni_png_0072.png */; };
 		BD260F591C2B843A00539FC1 /* XLGKNet.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F581C2B843A00539FC1 /* XLGKNet.m */; };
 		BD260F5C1C2B884A00539FC1 /* XLGKPicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F5B1C2B884A00539FC1 /* XLGKPicDetailViewController.m */; };
-		BD260F7A1C2B92A300539FC1 /* HeaderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F691C2B92A300539FC1 /* HeaderDetailViewController.m */; };
-		BD260F7B1C2B92A300539FC1 /* HeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F6B1C2B92A300539FC1 /* HeaderScrollView.m */; };
-		BD260F7C1C2B92A300539FC1 /* LabelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F6D1C2B92A300539FC1 /* LabelHeader.m */; };
-		BD260F7D1C2B92A300539FC1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F6F1C2B92A300539FC1 /* MyCollectionViewCell.m */; };
-		BD260F7E1C2B92A300539FC1 /* MyCollectionViewCellNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F711C2B92A300539FC1 /* MyCollectionViewCellNormal.m */; };
-		BD260F7F1C2B92A300539FC1 /* MyCollectionViewCellScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F731C2B92A300539FC1 /* MyCollectionViewCellScrolling.m */; };
-		BD260F801C2B92A300539FC1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F751C2B92A300539FC1 /* SecondViewController.m */; };
-		BD260F811C2B92A300539FC1 /* TJListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F771C2B92A300539FC1 /* TJListViewController.m */; };
-		BD260F821C2B92A300539FC1 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260F791C2B92A300539FC1 /* ZLScrollView.m */; };
 		BD260F871C2BB39300539FC1 /* InfoPList.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD260F891C2BB39300539FC1 /* InfoPList.strings */; };
+		BD260FAA1C2BC6CD00539FC1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FA11C2BC6CD00539FC1 /* FMDatabase.m */; };
+		BD260FAB1C2BC6CD00539FC1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FA31C2BC6CD00539FC1 /* FMDatabaseAdditions.m */; };
+		BD260FAC1C2BC6CD00539FC1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FA51C2BC6CD00539FC1 /* FMDatabasePool.m */; };
+		BD260FAD1C2BC6CD00539FC1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FA71C2BC6CD00539FC1 /* FMDatabaseQueue.m */; };
+		BD260FAE1C2BC6CD00539FC1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FA91C2BC6CD00539FC1 /* FMResultSet.m */; };
+		BD260FB01C2BC6DD00539FC1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD260FAF1C2BC6DD00539FC1 /* libsqlite3.tbd */; };
+		BD260FD91C2BC77600539FC1 /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FB31C2BC77600539FC1 /* FMDBManager.m */; };
+		BD260FDF1C2BC77600539FC1 /* HeaderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FC01C2BC77600539FC1 /* HeaderDetailViewController.m */; };
+		BD260FE01C2BC77600539FC1 /* HeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */; };
+		BD260FE11C2BC77600539FC1 /* HotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FC41C2BC77600539FC1 /* HotDetailViewController.m */; };
+		BD260FE21C2BC77600539FC1 /* LabelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FC61C2BC77600539FC1 /* LabelHeader.m */; };
+		BD260FE31C2BC77600539FC1 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */; };
+		BD260FE41C2BC77600539FC1 /* MyCollectionViewCellNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FCA1C2BC77600539FC1 /* MyCollectionViewCellNormal.m */; };
+		BD260FE51C2BC77600539FC1 /* MyCollectionViewCellScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */; };
+		BD260FE61C2BC77600539FC1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FCE1C2BC77600539FC1 /* SecondViewController.m */; };
+		BD260FE71C2BC77600539FC1 /* star2_Gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */; };
+		BD260FE81C2BC77600539FC1 /* star_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FD01C2BC77600539FC1 /* star_icon@2x.png */; };
+		BD260FE91C2BC77600539FC1 /* TJListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FD21C2BC77600539FC1 /* TJListCell.m */; };
+		BD260FEA1C2BC77600539FC1 /* TJListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FD41C2BC77600539FC1 /* TJListViewController.m */; };
+		BD260FEB1C2BC77600539FC1 /* topic_Comment.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FD51C2BC77600539FC1 /* topic_Comment.png */; };
+		BD260FEC1C2BC77600539FC1 /* topic_Download.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FD61C2BC77600539FC1 /* topic_Download.png */; };
+		BD260FED1C2BC77600539FC1 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FD81C2BC77600539FC1 /* ZLScrollView.m */; };
 		BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */; };
 		BD33A3E41C27938F0067FD90 /* XLGKGoodsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E31C27938F0067FD90 /* XLGKGoodsInfo.m */; };
 		BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD33A3EA1C279A700067FD90 /* SystemConfiguration.framework */; };
@@ -122,28 +135,49 @@
 		BD260F581C2B843A00539FC1 /* XLGKNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKNet.m; sourceTree = "<group>"; };
 		BD260F5A1C2B884A00539FC1 /* XLGKPicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKPicDetailViewController.h; sourceTree = "<group>"; };
 		BD260F5B1C2B884A00539FC1 /* XLGKPicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKPicDetailViewController.m; sourceTree = "<group>"; };
-		BD260F681C2B92A300539FC1 /* HeaderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDetailViewController.h; sourceTree = "<group>"; };
-		BD260F691C2B92A300539FC1 /* HeaderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderDetailViewController.m; sourceTree = "<group>"; };
-		BD260F6A1C2B92A300539FC1 /* HeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderScrollView.h; sourceTree = "<group>"; };
-		BD260F6B1C2B92A300539FC1 /* HeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderScrollView.m; sourceTree = "<group>"; };
-		BD260F6C1C2B92A300539FC1 /* LabelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeader.h; sourceTree = "<group>"; };
-		BD260F6D1C2B92A300539FC1 /* LabelHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeader.m; sourceTree = "<group>"; };
-		BD260F6E1C2B92A300539FC1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
-		BD260F6F1C2B92A300539FC1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
-		BD260F701C2B92A300539FC1 /* MyCollectionViewCellNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellNormal.h; sourceTree = "<group>"; };
-		BD260F711C2B92A300539FC1 /* MyCollectionViewCellNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellNormal.m; sourceTree = "<group>"; };
-		BD260F721C2B92A300539FC1 /* MyCollectionViewCellScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellScrolling.h; sourceTree = "<group>"; };
-		BD260F731C2B92A300539FC1 /* MyCollectionViewCellScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellScrolling.m; sourceTree = "<group>"; };
-		BD260F741C2B92A300539FC1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		BD260F751C2B92A300539FC1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BD260F761C2B92A300539FC1 /* TJListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJListViewController.h; sourceTree = "<group>"; };
-		BD260F771C2B92A300539FC1 /* TJListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJListViewController.m; sourceTree = "<group>"; };
-		BD260F781C2B92A300539FC1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
-		BD260F791C2B92A300539FC1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
 		BD260F831C2BB36800539FC1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD260F841C2BB36800539FC1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BD260F881C2BB39300539FC1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPList.strings"; sourceTree = "<group>"; };
 		BD260F8A1C2BB39700539FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPList.strings; sourceTree = "<group>"; };
+		BD260FA01C2BC6CD00539FC1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BD260FA11C2BC6CD00539FC1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BD260FA21C2BC6CD00539FC1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BD260FA31C2BC6CD00539FC1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BD260FA41C2BC6CD00539FC1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BD260FA51C2BC6CD00539FC1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BD260FA61C2BC6CD00539FC1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BD260FA71C2BC6CD00539FC1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BD260FA81C2BC6CD00539FC1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BD260FA91C2BC6CD00539FC1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BD260FAF1C2BC6DD00539FC1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BD260FB21C2BC77600539FC1 /* FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
+		BD260FB31C2BC77600539FC1 /* FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
+		BD260FBF1C2BC77600539FC1 /* HeaderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDetailViewController.h; sourceTree = "<group>"; };
+		BD260FC01C2BC77600539FC1 /* HeaderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderDetailViewController.m; sourceTree = "<group>"; };
+		BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderScrollView.h; sourceTree = "<group>"; };
+		BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderScrollView.m; sourceTree = "<group>"; };
+		BD260FC31C2BC77600539FC1 /* HotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDetailViewController.h; sourceTree = "<group>"; };
+		BD260FC41C2BC77600539FC1 /* HotDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDetailViewController.m; sourceTree = "<group>"; };
+		BD260FC51C2BC77600539FC1 /* LabelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeader.h; sourceTree = "<group>"; };
+		BD260FC61C2BC77600539FC1 /* LabelHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeader.m; sourceTree = "<group>"; };
+		BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		BD260FC91C2BC77600539FC1 /* MyCollectionViewCellNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellNormal.h; sourceTree = "<group>"; };
+		BD260FCA1C2BC77600539FC1 /* MyCollectionViewCellNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellNormal.m; sourceTree = "<group>"; };
+		BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellScrolling.h; sourceTree = "<group>"; };
+		BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellScrolling.m; sourceTree = "<group>"; };
+		BD260FCD1C2BC77600539FC1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD260FCE1C2BC77600539FC1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star2_Gray@2x.png"; sourceTree = "<group>"; };
+		BD260FD01C2BC77600539FC1 /* star_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_icon@2x.png"; sourceTree = "<group>"; };
+		BD260FD11C2BC77600539FC1 /* TJListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJListCell.h; sourceTree = "<group>"; };
+		BD260FD21C2BC77600539FC1 /* TJListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJListCell.m; sourceTree = "<group>"; };
+		BD260FD31C2BC77600539FC1 /* TJListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJListViewController.h; sourceTree = "<group>"; };
+		BD260FD41C2BC77600539FC1 /* TJListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJListViewController.m; sourceTree = "<group>"; };
+		BD260FD51C2BC77600539FC1 /* topic_Comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Comment.png; sourceTree = "<group>"; };
+		BD260FD61C2BC77600539FC1 /* topic_Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Download.png; sourceTree = "<group>"; };
+		BD260FD71C2BC77600539FC1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
+		BD260FD81C2BC77600539FC1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
 		BD33A3DE1C27905A0067FD90 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKRequestInfo.h; sourceTree = "<group>"; };
 		BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKRequestInfo.m; sourceTree = "<group>"; };
@@ -282,6 +316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD260FB01C2BC6DD00539FC1 /* libsqlite3.tbd in Frameworks */,
 				BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,29 +338,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD260F671C2B92A300539FC1 /* Controllers */ = {
+		BD260F9F1C2BC6CD00539FC1 /* FMDB数据库 */ = {
 			isa = PBXGroup;
 			children = (
-				BD260F681C2B92A300539FC1 /* HeaderDetailViewController.h */,
-				BD260F691C2B92A300539FC1 /* HeaderDetailViewController.m */,
-				BD260F6A1C2B92A300539FC1 /* HeaderScrollView.h */,
-				BD260F6B1C2B92A300539FC1 /* HeaderScrollView.m */,
-				BD260F6C1C2B92A300539FC1 /* LabelHeader.h */,
-				BD260F6D1C2B92A300539FC1 /* LabelHeader.m */,
-				BD260F6E1C2B92A300539FC1 /* MyCollectionViewCell.h */,
-				BD260F6F1C2B92A300539FC1 /* MyCollectionViewCell.m */,
-				BD260F701C2B92A300539FC1 /* MyCollectionViewCellNormal.h */,
-				BD260F711C2B92A300539FC1 /* MyCollectionViewCellNormal.m */,
-				BD260F721C2B92A300539FC1 /* MyCollectionViewCellScrolling.h */,
-				BD260F731C2B92A300539FC1 /* MyCollectionViewCellScrolling.m */,
-				BD260F741C2B92A300539FC1 /* SecondViewController.h */,
-				BD260F751C2B92A300539FC1 /* SecondViewController.m */,
-				BD260F761C2B92A300539FC1 /* TJListViewController.h */,
-				BD260F771C2B92A300539FC1 /* TJListViewController.m */,
-				BD260F781C2B92A300539FC1 /* ZLScrollView.h */,
-				BD260F791C2B92A300539FC1 /* ZLScrollView.m */,
+				BD260FA01C2BC6CD00539FC1 /* FMDatabase.h */,
+				BD260FA11C2BC6CD00539FC1 /* FMDatabase.m */,
+				BD260FA21C2BC6CD00539FC1 /* FMDatabaseAdditions.h */,
+				BD260FA31C2BC6CD00539FC1 /* FMDatabaseAdditions.m */,
+				BD260FA41C2BC6CD00539FC1 /* FMDatabasePool.h */,
+				BD260FA51C2BC6CD00539FC1 /* FMDatabasePool.m */,
+				BD260FA61C2BC6CD00539FC1 /* FMDatabaseQueue.h */,
+				BD260FA71C2BC6CD00539FC1 /* FMDatabaseQueue.m */,
+				BD260FA81C2BC6CD00539FC1 /* FMResultSet.h */,
+				BD260FA91C2BC6CD00539FC1 /* FMResultSet.m */,
 			);
-			path = Controllers;
+			path = "FMDB数据库";
+			sourceTree = "<group>";
+		};
+		BD260FB11C2BC77600539FC1 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				BD260FB21C2BC77600539FC1 /* FMDBManager.h */,
+				BD260FB31C2BC77600539FC1 /* FMDBManager.m */,
+				BD260FBF1C2BC77600539FC1 /* HeaderDetailViewController.h */,
+				BD260FC01C2BC77600539FC1 /* HeaderDetailViewController.m */,
+				BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */,
+				BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */,
+				BD260FC31C2BC77600539FC1 /* HotDetailViewController.h */,
+				BD260FC41C2BC77600539FC1 /* HotDetailViewController.m */,
+				BD260FC51C2BC77600539FC1 /* LabelHeader.h */,
+				BD260FC61C2BC77600539FC1 /* LabelHeader.m */,
+				BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */,
+				BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */,
+				BD260FC91C2BC77600539FC1 /* MyCollectionViewCellNormal.h */,
+				BD260FCA1C2BC77600539FC1 /* MyCollectionViewCellNormal.m */,
+				BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */,
+				BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */,
+				BD260FCD1C2BC77600539FC1 /* SecondViewController.h */,
+				BD260FCE1C2BC77600539FC1 /* SecondViewController.m */,
+				BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */,
+				BD260FD01C2BC77600539FC1 /* star_icon@2x.png */,
+				BD260FD11C2BC77600539FC1 /* TJListCell.h */,
+				BD260FD21C2BC77600539FC1 /* TJListCell.m */,
+				BD260FD31C2BC77600539FC1 /* TJListViewController.h */,
+				BD260FD41C2BC77600539FC1 /* TJListViewController.m */,
+				BD260FD51C2BC77600539FC1 /* topic_Comment.png */,
+				BD260FD61C2BC77600539FC1 /* topic_Download.png */,
+				BD260FD71C2BC77600539FC1 /* ZLScrollView.h */,
+				BD260FD81C2BC77600539FC1 /* ZLScrollView.m */,
+			);
+			path = search;
 			sourceTree = "<group>";
 		};
 		BD33A3E91C279A440067FD90 /* FrameWorks */ = {
@@ -492,7 +554,7 @@
 		BD6A131F1C23955700B12291 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BD260F671C2B92A300539FC1 /* Controllers */,
+				BD260FB11C2BC77600539FC1 /* search */,
 				BD6A13311C239A4100B12291 /* XLGKTabBarController.h */,
 				BD6A13321C239A4100B12291 /* XLGKTabBarController.m */,
 				BD6A13341C239A6600B12291 /* XLGKRootViewController.h */,
@@ -539,6 +601,7 @@
 		BD9972AD1C0F36CC00370820 = {
 			isa = PBXGroup;
 			children = (
+				BD260FAF1C2BC6DD00539FC1 /* libsqlite3.tbd */,
 				BD9972B81C0F36CC00370820 /* ExamineProjectAgain */,
 				BD9972D21C0F36CC00370820 /* ExamineProjectAgainTests */,
 				BD9972DD1C0F36CC00370820 /* ExamineProjectAgainUITests */,
@@ -616,6 +679,7 @@
 		BD9973001C0F3F5B00370820 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BD260F9F1C2BC6CD00539FC1 /* FMDB数据库 */,
 				BD33A42A1C2AF2DB0067FD90 /* MJRefresh */,
 				BD33A3EF1C27D9DE0067FD90 /* AFNetworking */,
 			);
@@ -802,7 +866,10 @@
 				BD9972C61C0F36CC00370820 /* Assets.xcassets in Resources */,
 				BD6A132B1C2399F900B12291 /* tab_2.png in Resources */,
 				BD6A132C1C2399F900B12291 /* tab_3.png in Resources */,
+				BD260FE81C2BC77600539FC1 /* star_icon@2x.png in Resources */,
 				BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */,
+				BD260FEC1C2BC77600539FC1 /* topic_Download.png in Resources */,
+				BD260FE71C2BC77600539FC1 /* star2_Gray@2x.png in Resources */,
 				BD260F551C2B835A00539FC1 /* ni_png_0071.png in Resources */,
 				BD6A13421C239CD600B12291 /* TabContent.plist in Resources */,
 				BD260F561C2B835A00539FC1 /* ni_png_0072.png in Resources */,
@@ -811,6 +878,7 @@
 				BD6A13301C2399F900B12291 /* tab_c3.png in Resources */,
 				BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */,
 				BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */,
+				BD260FEB1C2BC77600539FC1 /* topic_Comment.png in Resources */,
 				BD6A132A1C2399F900B12291 /* tab_1.png in Resources */,
 				BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */,
 				BD33A4651C2AF2DB0067FD90 /* MJRefresh.bundle in Resources */,
@@ -841,7 +909,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD260F801C2B92A300539FC1 /* SecondViewController.m in Sources */,
 				BD33A45F1C2AF2DB0067FD90 /* MJRefreshBackGifFooter.m in Sources */,
 				BD33A4291C2AE45A0067FD90 /* XLGKALLViewController.m in Sources */,
 				BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */,
@@ -850,44 +917,52 @@
 				BD33A4221C27D9DE0067FD90 /* UIButton+AFNetworking.m in Sources */,
 				BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */,
 				BD33A45A1C2AF2DB0067FD90 /* MJRefreshFooter.m in Sources */,
+				BD260FAA1C2BC6CD00539FC1 /* FMDatabase.m in Sources */,
+				BD260FE01C2BC77600539FC1 /* HeaderScrollView.m in Sources */,
+				BD260FAB1C2BC6CD00539FC1 /* FMDatabaseAdditions.m in Sources */,
 				BD33A4661C2AF2DB0067FD90 /* MJRefreshConst.m in Sources */,
 				BD260F591C2B843A00539FC1 /* XLGKNet.m in Sources */,
-				BD260F7B1C2B92A300539FC1 /* HeaderScrollView.m in Sources */,
 				BD33A4261C27D9DE0067FD90 /* UIWebView+AFNetworking.m in Sources */,
 				BD33A4241C27D9DE0067FD90 /* UIProgressView+AFNetworking.m in Sources */,
+				BD260FE51C2BC77600539FC1 /* MyCollectionViewCellScrolling.m in Sources */,
 				BD33A4181C27D9DE0067FD90 /* AFHTTPSessionManager.m in Sources */,
 				BD33A3E41C27938F0067FD90 /* XLGKGoodsInfo.m in Sources */,
 				BD33A4671C2AF2DB0067FD90 /* UIScrollView+MJExtension.m in Sources */,
 				BD33A4231C27D9DE0067FD90 /* UIImageView+AFNetworking.m in Sources */,
-				BD260F7E1C2B92A300539FC1 /* MyCollectionViewCellNormal.m in Sources */,
 				BD33A4571C2AF2DB0067FD90 /* MJRefreshAutoFooter.m in Sources */,
 				BD33A45E1C2AF2DB0067FD90 /* MJRefreshAutoStateFooter.m in Sources */,
-				BD260F821C2B92A300539FC1 /* ZLScrollView.m in Sources */,
 				BD33A4611C2AF2DB0067FD90 /* MJRefreshBackStateFooter.m in Sources */,
 				BD33A4191C27D9DE0067FD90 /* AFNetworkReachabilityManager.m in Sources */,
+				BD260FE11C2BC77600539FC1 /* HotDetailViewController.m in Sources */,
 				BD33A4601C2AF2DB0067FD90 /* MJRefreshBackNormalFooter.m in Sources */,
 				BD33A4641C2AF2DB0067FD90 /* MJRefreshStateHeader.m in Sources */,
-				BD260F7A1C2B92A300539FC1 /* HeaderDetailViewController.m in Sources */,
 				BD33A4581C2AF2DB0067FD90 /* MJRefreshBackFooter.m in Sources */,
 				BD33A4161C27D9DE0067FD90 /* AFHTTPRequestOperation.m in Sources */,
 				BD33A45B1C2AF2DB0067FD90 /* MJRefreshHeader.m in Sources */,
+				BD260FAC1C2BC6CD00539FC1 /* FMDatabasePool.m in Sources */,
+				BD260FE91C2BC77600539FC1 /* TJListCell.m in Sources */,
 				BD33A41C1C27D9DE0067FD90 /* AFURLRequestSerialization.m in Sources */,
-				BD260F7F1C2B92A300539FC1 /* MyCollectionViewCellScrolling.m in Sources */,
+				BD260FAD1C2BC6CD00539FC1 /* FMDatabaseQueue.m in Sources */,
+				BD260FE61C2BC77600539FC1 /* SecondViewController.m in Sources */,
 				BD33A41B1C27D9DE0067FD90 /* AFURLConnectionOperation.m in Sources */,
+				BD260FED1C2BC77600539FC1 /* ZLScrollView.m in Sources */,
 				BD33A41E1C27D9DE0067FD90 /* AFURLSessionManager.m in Sources */,
 				BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */,
 				BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */,
 				BD33A4201C27D9DE0067FD90 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */,
-				BD260F811C2B92A300539FC1 /* TJListViewController.m in Sources */,
+				BD260FAE1C2BC6CD00539FC1 /* FMResultSet.m in Sources */,
+				BD260FE41C2BC77600539FC1 /* MyCollectionViewCellNormal.m in Sources */,
 				BD260F5C1C2B884A00539FC1 /* XLGKPicDetailViewController.m in Sources */,
 				BD33A45C1C2AF2DB0067FD90 /* MJRefreshAutoGifFooter.m in Sources */,
+				BD260FE21C2BC77600539FC1 /* LabelHeader.m in Sources */,
 				BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */,
 				BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */,
 				BD9972BB1C0F36CC00370820 /* main.m in Sources */,
+				BD260FD91C2BC77600539FC1 /* FMDBManager.m in Sources */,
+				BD260FDF1C2BC77600539FC1 /* HeaderDetailViewController.m in Sources */,
 				BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */,
 				BD33A4621C2AF2DB0067FD90 /* MJRefreshGifHeader.m in Sources */,
-				BD260F7C1C2B92A300539FC1 /* LabelHeader.m in Sources */,
 				BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */,
 				BD33A41A1C27D9DE0067FD90 /* AFSecurityPolicy.m in Sources */,
 				BD33A46C1C2AF4BA0067FD90 /* XLActivity.m in Sources */,
@@ -896,13 +971,14 @@
 				BD33A4691C2AF2DB0067FD90 /* UIView+MJExtension.m in Sources */,
 				BD33A4211C27D9DE0067FD90 /* UIAlertView+AFNetworking.m in Sources */,
 				BD33A45D1C2AF2DB0067FD90 /* MJRefreshAutoNormalFooter.m in Sources */,
+				BD260FEA1C2BC77600539FC1 /* TJListViewController.m in Sources */,
 				BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */,
 				BD33A4171C27D9DE0067FD90 /* AFHTTPRequestOperationManager.m in Sources */,
 				BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */,
+				BD260FE31C2BC77600539FC1 /* MyCollectionViewCell.m in Sources */,
 				BD33A4591C2AF2DB0067FD90 /* MJRefreshComponent.m in Sources */,
 				BD33A41D1C27D9DE0067FD90 /* AFURLResponseSerialization.m in Sources */,
 				BD33A41F1C27D9DE0067FD90 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				BD260F7D1C2B92A300539FC1 /* MyCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

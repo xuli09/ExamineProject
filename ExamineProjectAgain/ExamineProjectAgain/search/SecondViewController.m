@@ -14,6 +14,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "HeaderDetailViewController.h"
 #import "TJListViewController.h"
+#import "HotDetailViewController.h"
 @interface SecondViewController (){
     
     UICollectionView *_collectionView;
@@ -312,7 +313,19 @@
 #pragma mark --ITEM的点击事件--
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath.section == 1) {
+    
+    if (indexPath.section == 2) {
+       
+        NSArray *array = [_dataDic objectForKey:@"articles"];
+        
+        NSDictionary *dic = array[indexPath.row];
+        
+        NSDictionary *d = [dic objectForKey:@"article"];
+        HotDetailViewController *detali = [[HotDetailViewController alloc]init];
+        
+        detali.urlId = [d objectForKey:@"article_id"];
+        
+        [self.navigationController pushViewController:detali animated:YES];
         
         
     }

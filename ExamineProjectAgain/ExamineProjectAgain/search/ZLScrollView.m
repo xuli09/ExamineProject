@@ -36,7 +36,7 @@
     
     _scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
     
-    _scrollView.backgroundColor = [UIColor redColor];
+    _scrollView.backgroundColor = [UIColor clearColor];
     
     _scrollView.contentOffset = CGPointZero;
     

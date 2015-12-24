@@ -25,6 +25,7 @@
 {
     [super viewDidLoad];
     [self createUI];
+    self.navigationController.navigationBarHidden = YES;
 }
 -(void)createUI
 {
@@ -68,6 +69,8 @@
     self.lineView = [[UIView alloc]initWithFrame:CGRectMake(0, 54, WIDTH / 2, 5)];
     self.lineView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.lineView];
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
     
 }
 -(void)pressBtn:(id)sender

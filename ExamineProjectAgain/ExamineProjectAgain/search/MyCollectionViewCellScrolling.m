@@ -8,17 +8,29 @@
 
 #import "MyCollectionViewCellScrolling.h"
 #import "UIImageView+AFNetworking.h"
-@implementation MyCollectionViewCellScrolling
+@implementation MyCollectionViewCellScrolling{
+    
+    UIScrollView *scrollView;
+}
+-(id)initWithFrame:(CGRect)frame{
+    
+    if (self = [super initWithFrame:frame]) {
+        
+        scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
+    }
+    
+    return self;
+}
 
 -(void)creatItemsWithArray:(NSArray *)itemArray{
     
     self.backgroundColor= [UIColor whiteColor];
-    UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
+    
     
     scrollView.contentOffset = CGPointZero;
     
     //间隔是5  距离屏幕距离是10
-    scrollView.contentSize = CGSizeMake(150*itemArray.count+(itemArray.count - 1)*5+20, 170);
+    scrollView.contentSize = CGSizeMake(150*itemArray.count+(itemArray.count - 1)*5+20+50, 170);
     
     [self addSubview:scrollView];
     

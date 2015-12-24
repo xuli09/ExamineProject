@@ -16,7 +16,6 @@
         
        self.iconView = [[UIImageView alloc]initWithFrame:self.bounds];
         
-        self.iconView.backgroundColor = [UIColor redColor];
         
         [self addSubview:self.iconView];
     }

@@ -75,7 +75,7 @@
     [dataSource addObjectsFromArray:array];
     [myTableView reloadData];
 }
-#pragma mark 表格协议方法
+#pragma mark 表格视图协议方法
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return dataSource.count;
@@ -131,7 +131,7 @@
     if([self isKindOfClass:[XLGKGoodsViewController class]])
         return 420;
     else
-        return 280;
+        return 320;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -139,9 +139,8 @@
     if([self isKindOfClass:[XLGKPictureController class]])
     {
         XLGKPicDetailViewController * detail = [[XLGKPicDetailViewController alloc]init];
-        UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:detail];
         detail.article_id = [dataSource[indexPath.row][@"article_id"] intValue];
-        [self.navigationController pushViewController:nav animated:YES];
+        [self.navigationController pushViewController:detail animated:YES];
     }
     
 }

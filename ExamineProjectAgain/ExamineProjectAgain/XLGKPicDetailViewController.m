@@ -13,10 +13,24 @@
 @end
 
 @implementation XLGKPicDetailViewController
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.tabBarController.tabBar setHidden:YES];
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [self.tabBarController.tabBar setHidden:NO];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
+    
+    self.navigationController.navigationBarHidden = NO;
+    
+    UIWebView * webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:PICTUREDETAILPATH,self.article_id]];
+    NSURLRequest * request = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:request];
+    [self.view addSubview:webView];
 }
 
 - (void)didReceiveMemoryWarning {

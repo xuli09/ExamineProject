@@ -10,28 +10,31 @@
 @implementation HeaderScrollView{
     
     NSArray *_imageIdArray;
+    
+    ZLScrollView *_zlScrollView;
 }
 
 -(id)initWithFrame:(CGRect)frame{
     
     if (self = [super initWithFrame:frame]) {
         
+        [self creatScrollView];
     }
     
     return self;
 }
+-(void)creatScrollView{
+    
+    _zlScrollView = [[ZLScrollView alloc]initWithFrame:self.bounds];
+    
+    _zlScrollView.delegate = self;
+    
+    [self addSubview:_zlScrollView];
 
+}
 -(void)creatItemsWithArray:(NSArray *)itemArray{
     
-    ZLScrollView *zlScrollView = [[ZLScrollView alloc]initWithFrame:self.bounds];
-    
-    zlScrollView.delegate = self;
-    
-    [zlScrollView addImageArrayWithArray:itemArray IsFromWeb:YES PlaceHolderImage:nil];
-    
-    [self addSubview:zlScrollView];
-    
-    
+       [_zlScrollView addImageArrayWithArray:itemArray IsFromWeb:YES PlaceHolderImage:nil];
 }
 
 -(void)clickImageTag:(NSInteger)tag{

@@ -33,14 +33,11 @@
         Class ctrClass = NSClassFromString(ctrName);
         //创建视图控制器类对象 多态
         UIViewController * viewContr = [[ctrClass alloc]init];
-        if(i == 1)
-        {
-            UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:viewContr];
-            [allCtrs addObject:nav];
-        }
+    
+        UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:viewContr];
+        
         //将对象放在tabBar的数组里
-        else
-        [allCtrs addObject:viewContr];
+        [allCtrs addObject:nav];
         
         //修改状态栏的文字颜色
         [viewContr preferredStatusBarStyle];

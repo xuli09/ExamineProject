@@ -16,10 +16,9 @@
 @end
 @interface HeaderScrollView : UICollectionReusableView<ZLScrollViewDelegate>
 
--(void)creatItemsWithArray:(NSArray *)itemArray;\
+-(void)creatItemsWithArray:(NSArray *)itemArray;
 
 @property (nonatomic,weak)id<HeaderScrollViewDelegate>delegate;
-
 @property (nonatomic,assign)NSInteger imageIndex;
 
 @end

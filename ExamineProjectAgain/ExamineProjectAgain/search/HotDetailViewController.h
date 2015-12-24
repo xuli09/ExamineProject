@@ -1,5 +1,5 @@
 //
-//  TJListViewController.h
+//  HotDetailViewController.h
 //  QFTeacherText
 //
 //  Created by zhulei on 15/12/24.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TJListViewController : UIViewController
-@property (nonatomic,copy)NSString *appId;
+@interface HotDetailViewController : UIViewController
+
+@property (nonatomic,copy)NSString *urlId;
+
 @end
