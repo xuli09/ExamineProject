@@ -12,6 +12,8 @@
 
 -(void)requestInfoFromPath:(NSString *)path
 {
+    
+    
     NSLog(@"----%@",path);
     //<1>创建请求操作管理者对象
     AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];

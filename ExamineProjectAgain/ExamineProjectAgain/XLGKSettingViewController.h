@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XLGKSettingViewController : UIViewController
+@interface XLGKSettingViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end

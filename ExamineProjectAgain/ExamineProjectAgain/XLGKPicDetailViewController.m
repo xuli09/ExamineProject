@@ -16,15 +16,15 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [self.tabBarController.tabBar setHidden:YES];
+    self.navigationController.navigationBarHidden = NO;
 }
 -(void)viewWillDisappear:(BOOL)animated
 {
     [self.tabBarController.tabBar setHidden:NO];
+    self.navigationController.navigationBarHidden = YES;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navigationController.navigationBarHidden = NO;
     
     UIWebView * webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:PICTUREDETAILPATH,self.article_id]];

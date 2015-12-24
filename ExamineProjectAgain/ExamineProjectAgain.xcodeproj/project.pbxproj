@@ -36,6 +36,8 @@
 		BD260FEB1C2BC77600539FC1 /* topic_Comment.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FD51C2BC77600539FC1 /* topic_Comment.png */; };
 		BD260FEC1C2BC77600539FC1 /* topic_Download.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260FD61C2BC77600539FC1 /* topic_Download.png */; };
 		BD260FED1C2BC77600539FC1 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FD81C2BC77600539FC1 /* ZLScrollView.m */; };
+		BD260FF11C2BDC7000539FC1 /* LSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD260FEF1C2BDC7000539FC1 /* LSScanViewController.m */; };
+		BD260FF21C2BDC7000539FC1 /* LSScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD260FF01C2BDC7000539FC1 /* LSScanViewController.xib */; };
 		BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */; };
 		BD33A3E41C27938F0067FD90 /* XLGKGoodsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A3E31C27938F0067FD90 /* XLGKGoodsInfo.m */; };
 		BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD33A3EA1C279A700067FD90 /* SystemConfiguration.framework */; };
@@ -178,6 +180,9 @@
 		BD260FD61C2BC77600539FC1 /* topic_Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Download.png; sourceTree = "<group>"; };
 		BD260FD71C2BC77600539FC1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
 		BD260FD81C2BC77600539FC1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
+		BD260FEE1C2BDC7000539FC1 /* LSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScanViewController.h; sourceTree = "<group>"; };
+		BD260FEF1C2BDC7000539FC1 /* LSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSScanViewController.m; sourceTree = "<group>"; };
+		BD260FF01C2BDC7000539FC1 /* LSScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSScanViewController.xib; sourceTree = "<group>"; };
 		BD33A3DE1C27905A0067FD90 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKRequestInfo.h; sourceTree = "<group>"; };
 		BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKRequestInfo.m; sourceTree = "<group>"; };
@@ -358,6 +363,9 @@
 		BD260FB11C2BC77600539FC1 /* search */ = {
 			isa = PBXGroup;
 			children = (
+				BD260FEE1C2BDC7000539FC1 /* LSScanViewController.h */,
+				BD260FEF1C2BDC7000539FC1 /* LSScanViewController.m */,
+				BD260FF01C2BDC7000539FC1 /* LSScanViewController.xib */,
 				BD260FB21C2BC77600539FC1 /* FMDBManager.h */,
 				BD260FB31C2BC77600539FC1 /* FMDBManager.m */,
 				BD260FBF1C2BC77600539FC1 /* HeaderDetailViewController.h */,
@@ -882,6 +890,7 @@
 				BD6A132A1C2399F900B12291 /* tab_1.png in Resources */,
 				BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */,
 				BD33A4651C2AF2DB0067FD90 /* MJRefresh.bundle in Resources */,
+				BD260FF21C2BDC7000539FC1 /* LSScanViewController.xib in Resources */,
 				BD260F871C2BB39300539FC1 /* InfoPList.strings in Resources */,
 				BD9972C41C0F36CC00370820 /* Main.storyboard in Resources */,
 				BD260F531C2B835A00539FC1 /* ni_png_0968.png in Resources */,
@@ -939,6 +948,7 @@
 				BD33A4581C2AF2DB0067FD90 /* MJRefreshBackFooter.m in Sources */,
 				BD33A4161C27D9DE0067FD90 /* AFHTTPRequestOperation.m in Sources */,
 				BD33A45B1C2AF2DB0067FD90 /* MJRefreshHeader.m in Sources */,
+				BD260FF11C2BDC7000539FC1 /* LSScanViewController.m in Sources */,
 				BD260FAC1C2BC6CD00539FC1 /* FMDatabasePool.m in Sources */,
 				BD260FE91C2BC77600539FC1 /* TJListCell.m in Sources */,
 				BD33A41C1C27D9DE0067FD90 /* AFURLRequestSerialization.m in Sources */,
