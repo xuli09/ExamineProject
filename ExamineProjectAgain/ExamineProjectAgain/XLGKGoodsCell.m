@@ -31,5 +31,8 @@
     
     self.timeLabel.text = [NSString stringWithFormat:@"%.2d:%.2d:%.2d前",HH,MM,SS];
     
+    self.timeTmpLbl.text = NSLocalizedStringFromTable(@"Time", @"InfoPList", @"ok");
+    self.collectionTmpLbl.text = NSLocalizedStringFromTable(@"Collection", @"InfoPList", @"ok");
+    
 }
 @end

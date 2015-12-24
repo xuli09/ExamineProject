@@ -15,7 +15,7 @@
 #define PICTUREPATH @"http://api.guoku.com/mobile/v4/articles/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&page=1&sign=6952ddea075ba4e27f3ba809d80430ad&size=20&timestamp=1450168570.667858"
 
 //图文详情页
-#define PICTUREDETAILPATH @"http://m.guoku.com/articles/1296/"
+#define PICTUREDETAILPATH @"http://m.guoku.com/articles/%d/"
 
 //搜索页接口
 #define SEARCHPATH @"http://api.guoku.com/mobile/v4/discover/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&sign=b6fbc461c473452b1fa344ae6d1af2c2"

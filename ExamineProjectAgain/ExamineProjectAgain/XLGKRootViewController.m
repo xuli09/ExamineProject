@@ -49,7 +49,10 @@
     picture.view.frame = CGRectMake(WIDTH, 0, WIDTH, HEIGHT - 64);
     
     //循环创建多个按钮
-    NSArray * array = @[@"商品",@"图文"];
+    //国际化
+    NSString * goodsStr = NSLocalizedStringFromTable(@"Goods", @"InfoPList", @"商品");
+    NSString * picture1 = NSLocalizedStringFromTable(@"Picture", @"InfoPList", @"ok");
+    NSArray * array = @[goodsStr,picture1];
     for(int i = 0;i<array.count;i++)
     {
         UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];

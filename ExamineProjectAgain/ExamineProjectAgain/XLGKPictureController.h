@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface XLGKPictureController : UIViewController
+#import "XLGKALLViewController.h"
+@interface XLGKPictureController : XLGKALLViewController
 
 @end

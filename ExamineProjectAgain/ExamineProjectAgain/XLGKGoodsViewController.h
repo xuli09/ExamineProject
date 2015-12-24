@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLGKALLViewController.h"
 
-@interface XLGKGoodsViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface XLGKGoodsViewController : XLGKALLViewController
 
 @end

@@ -16,7 +16,7 @@
 		<key>tabImage</key>
 		<string>tab_2.png</string>
 		<key>controllerName</key>
-		<string>XLGKSearchController</string>
+		<string>SecondViewController</string>
 	</dict>
 	<dict>
 		<key>selectImage</key>

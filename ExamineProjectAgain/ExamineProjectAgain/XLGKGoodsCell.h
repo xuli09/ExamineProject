@@ -20,6 +20,8 @@
 //显示商品的上架时间
 @property (strong, nonatomic) IBOutlet UILabel *timeLabel;
 
+@property (strong, nonatomic) IBOutlet UILabel *collectionTmpLbl;
+@property (strong, nonatomic) IBOutlet UILabel *timeTmpLbl;
 
 //接收显示的数据
 -(void)showInfoEveryGoods:(XLGKGoodsInfo *)goods;

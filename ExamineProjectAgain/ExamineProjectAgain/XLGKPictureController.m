@@ -10,4 +10,11 @@
 
 @implementation XLGKPictureController
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.rootPath = PICTUREPATH;
+    [self startRequestInfo:PICTUREPATH];
+}
 @end

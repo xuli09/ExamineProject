@@ -33,11 +33,17 @@
         Class ctrClass = NSClassFromString(ctrName);
         //创建视图控制器类对象 多态
         UIViewController * viewContr = [[ctrClass alloc]init];
+        if(i == 1)
+        {
+            UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:viewContr];
+            [allCtrs addObject:nav];
+        }
+        //将对象放在tabBar的数组里
+        else
+        [allCtrs addObject:viewContr];
+        
         //修改状态栏的文字颜色
         [viewContr preferredStatusBarStyle];
-        
-        //将对象放在tabBar的数组里
-        [allCtrs addObject:viewContr];
         
         //获取每个子视图控制器对应的图片
         NSString * imageNameStr = dic[@"tabImage"];

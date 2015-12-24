@@ -17,5 +17,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *pictureDetailLabel;
 //显示图文的发表时间
 @property (strong, nonatomic) IBOutlet UILabel *pictureTime;
+@property (strong, nonatomic) IBOutlet UILabel *collectionLbl;
 
+-(void)showInfoFromDic:(NSDictionary *)everyDic;
 @end

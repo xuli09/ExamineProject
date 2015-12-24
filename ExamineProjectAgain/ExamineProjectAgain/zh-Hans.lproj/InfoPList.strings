@@ -1,0 +1,10 @@
+/* 
+  InfoPList.strings
+  ExamineProjectAgain
+
+  Created by xuli on 15/12/24.
+  Copyright © 2015年 xuli. All rights reserved.
+*/
+//中文
+CFBundleDisplayName = "多语言";//系统保留，应用程序在桌面显示的名称
+category = "工程";//用户自定义的字符串

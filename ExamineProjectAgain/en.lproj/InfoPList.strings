@@ -1,0 +1,18 @@
+/* 
+  InfoPList.strings
+  ExamineProjectAgain
+
+  Created by xuli on 15/12/24.
+  Copyright © 2015年 xuli. All rights reserved.
+*/
+//英文
+CFBundleDisplayName = "ExamineProjectAgain";//App在桌面上显示的名字
+Category = "Project";
+
+Goods = "Goods";
+
+Picture = "Picture";
+
+Collection = "Collection:";
+
+Time = "Time:";

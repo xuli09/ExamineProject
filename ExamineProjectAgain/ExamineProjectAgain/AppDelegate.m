@@ -25,6 +25,17 @@
     XLGKTabBarController * myTabBar = [[XLGKTabBarController alloc]init];
     self.window.rootViewController = myTabBar;
     
+    //多语言、国际化、本地化
+    
+    //读字符串资源
+    //参数一：字符串名
+    //参数二：字符串文件名
+    //参数三：注释
+//    NSString *category = NSLocalizedStringFromTable(@"Category", @"InfoPlist", @"游戏类别");
+//    NSLog(@"Category: %@", category);
+
+    
+    
     [self.window makeKeyAndVisible];
     
     return YES;
