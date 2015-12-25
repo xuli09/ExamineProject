@@ -8,7 +8,7 @@
 
 #import "XLGKQRCodeViewController.h"
 #import "Masonry.h"
-#import "Scan_VC.h"
+#import "XLGKStartQRViewController.h"
 #import "QRCodeGenerator.h"
 
 #define RandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1]
@@ -115,7 +115,7 @@
 -(void)pressStartQRBtn:(id)sender
 {
     
-    Scan_VC * vc=[[Scan_VC alloc]init];
+    XLGKStartQRViewController * vc=[[XLGKStartQRViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 #pragma mark 动态生成二维码
@@ -148,28 +148,9 @@
     
     return YES;
 }
-//-(void)textFieldDidBeginEditing:(UITextField *)textField
-//{
-//    _timer.fireDate=[NSDate distantFuture];
-//}
-//-(void)textFieldDidEndEditing:(UITextField *)textField
-//{
-//    _timer.fireDate=[NSDate distantPast];
-//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

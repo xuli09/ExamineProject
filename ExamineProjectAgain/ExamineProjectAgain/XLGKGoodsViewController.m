@@ -8,6 +8,7 @@
 
 #import "XLGKGoodsViewController.h"
 #import "XLGKNet.h"
+#import "XLActivity.h"
 @interface XLGKGoodsViewController ()
 @end
 

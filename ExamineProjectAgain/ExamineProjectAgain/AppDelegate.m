@@ -8,10 +8,8 @@
 
 #import "AppDelegate.h"
 #import "XLGKTabBarController.h"
-//#import "AFNetworkActivityIndicatorManager.h"
+
 @interface AppDelegate ()
-
-
 
 @end
 
@@ -25,8 +23,6 @@
 
     XLGKTabBarController * myTabBar = [[XLGKTabBarController alloc]init];
     self.window.rootViewController = myTabBar;
-    
-    //[AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     
     [self.window makeKeyAndVisible];
     

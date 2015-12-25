@@ -19,5 +19,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *pictureTime;
 @property (strong, nonatomic) IBOutlet UILabel *collectionLbl;
 
+//图文下载
+@property (strong, nonatomic) IBOutlet UIImageView *downLoadImageView;
+
 -(void)showInfoFromDic:(NSDictionary *)everyDic;
 @end

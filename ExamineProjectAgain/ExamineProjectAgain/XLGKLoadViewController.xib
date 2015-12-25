@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XLGKLoadViewController">
+            <connections>
+                <outlet property="imageView" destination="nFs-2h-UiK" id="nxy-Oi-zSR"/>
+                <outlet property="progressView" destination="tng-CT-haT" id="XJa-fb-PXE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-2h-UiK">
+                    <rect key="frame" x="20" y="47" width="335" height="352"/>
+                    <color key="backgroundColor" red="0.29550942493618371" green="1" blue="0.13584235476330953" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-gr-8lI">
+                    <rect key="frame" x="26" y="514" width="30" height="30"/>
+                    <state key="normal" title="开始"/>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="Dlu-oK-r7j"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zec-em-qag">
+                    <rect key="frame" x="172" y="514" width="30" height="30"/>
+                    <state key="normal" title="暂停"/>
+                    <connections>
+                        <action selector="pause:" destination="-1" eventType="touchUpInside" id="ROV-3o-ZIm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abD-Kl-X5S">
+                    <rect key="frame" x="325" y="514" width="30" height="30"/>
+                    <state key="normal" title="恢复"/>
+                    <connections>
+                        <action selector="resume:" destination="-1" eventType="touchUpInside" id="AuS-qq-SMY"/>
+                    </connections>
+                </button>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tng-CT-haT">
+                    <rect key="frame" x="20" y="461" width="335" height="2"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="0.15055082897033145" green="0.15055082897033145" blue="0.15055082897033145" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="348.5" y="347.5"/>
+        </view>
+    </objects>
+</document>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1605CD1C2D1D4C001DEEF9 /* file_download_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1605CC1C2D1D4C001DEEF9 /* file_download_normal.png */; };
+		BD1605CF1C2D1D4F001DEEF9 /* file_pause_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1605CE1C2D1D4F001DEEF9 /* file_pause_normal.png */; };
+		BD16064A1C2D383D001DEEF9 /* XLGKLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */; };
+		BD16064B1C2D383D001DEEF9 /* XLGKLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */; };
 		BD260F531C2B835A00539FC1 /* ni_png_0968.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260F4F1C2B835A00539FC1 /* ni_png_0968.png */; };
 		BD260F541C2B835A00539FC1 /* ni_png_0969.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260F501C2B835A00539FC1 /* ni_png_0969.png */; };
 		BD260F551C2B835A00539FC1 /* ni_png_0071.png in Resources */ = {isa = PBXBuildFile; fileRef = BD260F511C2B835A00539FC1 /* ni_png_0071.png */; };
@@ -69,8 +73,7 @@
 		BD2610601C2C430D00539FC1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD26104B1C2C430D00539FC1 /* View+MASAdditions.m */; };
 		BD2610611C2C430D00539FC1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD26104E1C2C430D00539FC1 /* ViewController+MASAdditions.m */; };
 		BD2610641C2C458000539FC1 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2610631C2C458000539FC1 /* UIView+SDExtension.m */; };
-		BD2610691C2C458F00539FC1 /* Scan_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2610661C2C458F00539FC1 /* Scan_VC.m */; };
-		BD26106A1C2C458F00539FC1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2610681C2C458F00539FC1 /* ViewController2.m */; };
+		BD2610691C2C458F00539FC1 /* XLGKStartQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2610661C2C458F00539FC1 /* XLGKStartQRViewController.m */; };
 		BD26106C1C2C462100539FC1 /* 6824500_006_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD26106B1C2C462100539FC1 /* 6824500_006_thumb.jpg */; };
 		BD26106E1C2C463C00539FC1 /* qrcode_scan_btn_flash_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD26106D1C2C463C00539FC1 /* qrcode_scan_btn_flash_down@2x.png */; };
 		BD2610701C2C464100539FC1 /* qrcode_scan_btn_flash_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD26106F1C2C464100539FC1 /* qrcode_scan_btn_flash_nor@2x.png */; };
@@ -178,6 +181,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD1605CC1C2D1D4C001DEEF9 /* file_download_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_download_normal.png; sourceTree = "<group>"; };
+		BD1605CE1C2D1D4F001DEEF9 /* file_pause_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_pause_normal.png; sourceTree = "<group>"; };
+		BD1606471C2D383D001DEEF9 /* XLGKLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKLoadViewController.h; sourceTree = "<group>"; };
+		BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKLoadViewController.m; sourceTree = "<group>"; };
+		BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLGKLoadViewController.xib; sourceTree = "<group>"; };
 		BD260F4F1C2B835A00539FC1 /* ni_png_0968.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ni_png_0968.png; sourceTree = "<group>"; };
 		BD260F501C2B835A00539FC1 /* ni_png_0969.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ni_png_0969.png; sourceTree = "<group>"; };
 		BD260F511C2B835A00539FC1 /* ni_png_0071.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ni_png_0071.png; sourceTree = "<group>"; };
@@ -308,10 +316,8 @@
 		BD26104E1C2C430D00539FC1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		BD2610621C2C458000539FC1 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		BD2610631C2C458000539FC1 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
-		BD2610651C2C458F00539FC1 /* Scan_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scan_VC.h; sourceTree = "<group>"; };
-		BD2610661C2C458F00539FC1 /* Scan_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scan_VC.m; sourceTree = "<group>"; };
-		BD2610671C2C458F00539FC1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		BD2610681C2C458F00539FC1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		BD2610651C2C458F00539FC1 /* XLGKStartQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLGKStartQRViewController.h; sourceTree = "<group>"; };
+		BD2610661C2C458F00539FC1 /* XLGKStartQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKStartQRViewController.m; sourceTree = "<group>"; };
 		BD26106B1C2C462100539FC1 /* 6824500_006_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6824500_006_thumb.jpg; sourceTree = "<group>"; };
 		BD26106D1C2C463C00539FC1 /* qrcode_scan_btn_flash_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_down@2x.png"; sourceTree = "<group>"; };
 		BD26106F1C2C464100539FC1 /* qrcode_scan_btn_flash_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_nor@2x.png"; sourceTree = "<group>"; };
@@ -860,12 +866,11 @@
 				BD260F5B1C2B884A00539FC1 /* XLGKPicDetailViewController.m */,
 				BD2610201C2C3EE100539FC1 /* XLGKQRCodeViewController.h */,
 				BD2610211C2C3EE100539FC1 /* XLGKQRCodeViewController.m */,
-				BD2610621C2C458000539FC1 /* UIView+SDExtension.h */,
-				BD2610631C2C458000539FC1 /* UIView+SDExtension.m */,
-				BD2610651C2C458F00539FC1 /* Scan_VC.h */,
-				BD2610661C2C458F00539FC1 /* Scan_VC.m */,
-				BD2610671C2C458F00539FC1 /* ViewController2.h */,
-				BD2610681C2C458F00539FC1 /* ViewController2.m */,
+				BD2610651C2C458F00539FC1 /* XLGKStartQRViewController.h */,
+				BD2610661C2C458F00539FC1 /* XLGKStartQRViewController.m */,
+				BD1606471C2D383D001DEEF9 /* XLGKLoadViewController.h */,
+				BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */,
+				BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -873,6 +878,8 @@
 		BD6A13201C2399F900B12291 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BD1605CE1C2D1D4F001DEEF9 /* file_pause_normal.png */,
+				BD1605CC1C2D1D4C001DEEF9 /* file_download_normal.png */,
 				BD2610891C2C469400539FC1 /* scan_net@2x.png */,
 				BD2610871C2C468F00539FC1 /* scan_4@2x.png */,
 				BD2610851C2C468A00539FC1 /* scan_3@2x.png */,
@@ -1034,6 +1041,8 @@
 		BD9973051C0F3FA700370820 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD2610621C2C458000539FC1 /* UIView+SDExtension.h */,
+				BD2610631C2C458000539FC1 /* UIView+SDExtension.m */,
 				BD6A13521C23AD0B00B12291 /* XLGKGoodsCell.h */,
 				BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */,
 				BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */,
@@ -1176,6 +1185,7 @@
 				BD9972C91C0F36CC00370820 /* LaunchScreen.storyboard in Resources */,
 				BD2610721C2C464600539FC1 /* qrcode_scan_btn_myqrcode_down@2x.png in Resources */,
 				BD9972C61C0F36CC00370820 /* Assets.xcassets in Resources */,
+				BD16064B1C2D383D001DEEF9 /* XLGKLoadViewController.xib in Resources */,
 				BD6A132B1C2399F900B12291 /* tab_2.png in Resources */,
 				BD2610701C2C464100539FC1 /* qrcode_scan_btn_flash_nor@2x.png in Resources */,
 				BD26101F1C2C3E3C00539FC1 /* zbar-samples.png in Resources */,
@@ -1193,6 +1203,7 @@
 				BD26107C1C2C466700539FC1 /* qrcode_scan_light_green@2x.png in Resources */,
 				BD260F551C2B835A00539FC1 /* ni_png_0071.png in Resources */,
 				BD6A13421C239CD600B12291 /* TabContent.plist in Resources */,
+				BD1605CF1C2D1D4F001DEEF9 /* file_pause_normal.png in Resources */,
 				BD2610861C2C468A00539FC1 /* scan_3@2x.png in Resources */,
 				BD260F561C2B835A00539FC1 /* ni_png_0072.png in Resources */,
 				BD2610571C2C430D00539FC1 /* Info.plist in Resources */,
@@ -1204,6 +1215,7 @@
 				BD2610841C2C468500539FC1 /* scan_2@2x.png in Resources */,
 				BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */,
 				BD26101E1C2C3E3C00539FC1 /* zbar-helpicons.png in Resources */,
+				BD1605CD1C2D1D4C001DEEF9 /* file_download_normal.png in Resources */,
 				BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */,
 				BD26107E1C2C466F00539FC1 /* qrcode_scan_titlebar_back_nor@2x.png in Resources */,
 				BD2610761C2C465600539FC1 /* qrcode_scan_btn_photo_down@2x.png in Resources */,
@@ -1244,10 +1256,10 @@
 			files = (
 				BD2610521C2C430D00539FC1 /* qrencode.c in Sources */,
 				BD33A45F1C2AF2DB0067FD90 /* MJRefreshBackGifFooter.m in Sources */,
+				BD16064A1C2D383D001DEEF9 /* XLGKLoadViewController.m in Sources */,
 				BD33A4291C2AE45A0067FD90 /* XLGKALLViewController.m in Sources */,
 				BD6A13541C23AD0B00B12291 /* XLGKGoodsCell.m in Sources */,
 				BD9972C11C0F36CC00370820 /* ViewController.m in Sources */,
-				BD26106A1C2C458F00539FC1 /* ViewController2.m in Sources */,
 				BD33A4681C2AF2DB0067FD90 /* UIScrollView+MJRefresh.m in Sources */,
 				BD33A4221C27D9DE0067FD90 /* UIButton+AFNetworking.m in Sources */,
 				BD2610641C2C458000539FC1 /* UIView+SDExtension.m in Sources */,
@@ -1264,7 +1276,7 @@
 				BD260FE51C2BC77600539FC1 /* MyCollectionViewCellScrolling.m in Sources */,
 				BD33A4181C27D9DE0067FD90 /* AFHTTPSessionManager.m in Sources */,
 				BD33A3E41C27938F0067FD90 /* XLGKGoodsInfo.m in Sources */,
-				BD2610691C2C458F00539FC1 /* Scan_VC.m in Sources */,
+				BD2610691C2C458F00539FC1 /* XLGKStartQRViewController.m in Sources */,
 				BD33A4671C2AF2DB0067FD90 /* UIScrollView+MJExtension.m in Sources */,
 				BD33A4231C27D9DE0067FD90 /* UIImageView+AFNetworking.m in Sources */,
 				BD33A4571C2AF2DB0067FD90 /* MJRefreshAutoFooter.m in Sources */,

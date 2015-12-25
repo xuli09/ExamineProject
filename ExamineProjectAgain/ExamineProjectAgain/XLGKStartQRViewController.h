@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Scan_VC : UIViewController
+@interface XLGKStartQRViewController : UIViewController
 
 @end

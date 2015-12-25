@@ -12,7 +12,7 @@
 //商品页接口
 #define GOODSPATH @"http://api.guoku.com/mobile/v4/selection/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&count=30&rcat=0&sign=b65e2e01c27a4c5d8eaf872d87fe3995&timestamp=1450167649.621674"
 //图文页接口
-#define PICTUREPATH @"http://api.guoku.com/mobile/v4/articles/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&page=1&sign=6952ddea075ba4e27f3ba809d80430ad&size=20&timestamp=1450168570.667858"
+#define PICTUREPATH @"http://api.guoku.com/mobile/v4/articles/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&page=1&sign=e43001a164a56beb8eb3d673cb321d0e&size=20&timestamp=1451007043.59264"
 
 //图文详情页
 #define PICTUREDETAILPATH @"http://m.guoku.com/articles/%d/"

@@ -37,6 +37,8 @@
         UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"检测当前网络状态" message:string delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alertView show];
         
+        
+        
     }];
     //开始测试
     [manager.reachabilityManager startMonitoring];

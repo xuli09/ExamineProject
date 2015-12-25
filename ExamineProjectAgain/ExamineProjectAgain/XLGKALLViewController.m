@@ -16,6 +16,7 @@
 #import "MJRefresh.h"
 #import "XLActivity.h"
 #import "XLGKPicDetailViewController.h"
+#import "XLGKLoadViewController.h"
 
 #define WIDTH self.view.frame.size.width
 #define HEIGHT (self.view.frame.size.height - 60 - 44)
@@ -55,7 +56,6 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    activity = [[XLActivity alloc]init];
 }
 #pragma mark 开始数据请求
 //开始请求数据
@@ -65,7 +65,6 @@
     requestInfo.delegate = self;
     //path = [NSString stringWithFormat:path,self.currentPage];
     [requestInfo requestInfoFromPath:path];
-    
 }
 //实现协议中的方法
 -(void)requestInfoWithData:(NSData *)data
@@ -123,6 +122,13 @@
         NSDictionary * everyDic = dataSource[indexPath.row];
         [cell showInfoFromDic:everyDic];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        
+       
+        UITapGestureRecognizer * tap =  [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
+        tap.numberOfTapsRequired = 1;
+        tap.numberOfTouchesRequired = 1;
+        [cell.downLoadImageView addGestureRecognizer:tap];
+        cell.downLoadImageView.tag = indexPath.row;
         return cell;
     }
 }
@@ -144,6 +150,19 @@
     }
     
 }
+#pragma mark 手势触发事件
+-(void)tapAction:(UITapGestureRecognizer *)tap
+{
+    UIImageView * imageView = (UIImageView *)tap.view;
+    int tag = (int)imageView.tag;
+    if(dataSource[tag][@"cover"] != nil)
+    {
+         NSString * pic = [NSString stringWithFormat:@"http://imgcdn.guoku.com/%@",dataSource[tag][@"cover"]];
+        XLGKLoadViewController * downLoadCtr = [[XLGKLoadViewController alloc]init];
+        downLoadCtr.imagePath = pic;
+        [self.navigationController pushViewController:downLoadCtr animated:YES];
+    }
+}
 #pragma mark 加载刷新
 -(void)startLoading
 {
@@ -157,14 +176,11 @@
     [footer setTitle:@"正在加载" forState:MJRefreshStatePulling];
     
     myTableView.footer = footer;
-//    myTableView.tableFooterView = activity;
-//    [activity startAnimate];
 }
 -(void)loadData
 {
     self.currentPage ++;
     [self startRequestInfo:self.rootPath];
-    //[activity stopAnimate];
     [myTableView.footer endRefreshing];
 }
 -(void)startRefreshing
@@ -184,8 +200,6 @@
     [header setTitle:@"丽姐正在努力加载..." forState:MJRefreshStatePulling];
     
     myTableView.header = header;
-//    myTableView.tableHeaderView = activity;
-//    [activity startAnimate];
 }
 -(void)refreshFirstPageData
 {
@@ -193,7 +207,6 @@
     self.currentPage = 1;
     [self startRequestInfo:self.rootPath];
     [myTableView.header endRefreshing];
-    //[activity stopAnimate];
 }
 
 - (void)didReceiveMemoryWarning {

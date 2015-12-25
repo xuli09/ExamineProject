@@ -83,14 +83,13 @@ static CGSize normalSize = {320,50};
     [self removeRect];
     [self setHidden:NO];
     
-    for (int i = 0; i < _numberOfRect; i++) {
+    for (int i = 0; i < _numberOfRect; i++)
+    {
         
-        UIView* rectView = [[UIView alloc] initWithFrame:CGRectMake((320 - _numberOfRect*(_defaultSize.height / 2. + _spacing))/2. + i *(_defaultSize.height / 2. + _spacing) , 0, _defaultSize.height/2., _defaultSize.height)];
+        UIView * rectView = [[UIView alloc] initWithFrame:CGRectMake((320 - _numberOfRect*(_defaultSize.height / 2. + _spacing))/2. + i *(_defaultSize.height / 2. + _spacing) , 0, _defaultSize.height/2., _defaultSize.height)];
         [rectView setBackgroundColor:_rectBackgroundColor];
         [rectView.layer addAnimation:[self addAnimateWithDelay:i*0.2] forKey:@"TBRotate"];
         [self addSubview:rectView];
-        
-        
     }
     
     
