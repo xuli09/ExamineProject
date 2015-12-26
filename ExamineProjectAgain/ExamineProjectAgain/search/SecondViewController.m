@@ -15,6 +15,7 @@
 #import "HeaderDetailViewController.h"
 #import "TJListViewController.h"
 #import "HotDetailViewController.h"
+#import "MMProgressHUD.h"
 @interface SecondViewController (){
     
     UICollectionView *_collectionView;
@@ -45,6 +46,11 @@
 }
 -(void)getData{
     
+    //开始数据请求
+    [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleExpand];
+    
+    [MMProgressHUD showDeterminateProgressWithTitle:nil status:@"正在加载..."];
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -60,9 +66,10 @@
         _dataArray = [NSMutableArray arrayWithArray:entitiesArray];
 
         [_collectionView reloadData];
+        [MMProgressHUD dismissWithSuccess:@"加载成功"];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
+        [MMProgressHUD dismissWithError:[NSString stringWithFormat:@"%@",error.description]];
     }];
 }
 

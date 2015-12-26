@@ -42,6 +42,7 @@
         UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10+i*(150+10), 10, 150, 150)];
         
         [imageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",category[@"cover_url"]]]];
+        
         imageView.userInteractionEnabled = YES;
         
         [scrollView addSubview:imageView];

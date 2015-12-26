@@ -14,7 +14,6 @@
 #import "XLGKGoodsViewController.h"
 #import "XLGKPictureController.h"
 #import "MJRefresh.h"
-#import "XLActivity.h"
 #import "XLGKPicDetailViewController.h"
 #import "XLGKLoadViewController.h"
 
@@ -25,7 +24,6 @@
 {
     UITableView * myTableView;//创建表格视图
     NSMutableArray * dataSource;//添加数据源信息
-    XLActivity * activity;
 }
 
 @end

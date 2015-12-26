@@ -9,8 +9,8 @@
 #import "XLGKSettingViewController.h"
 #import "UIImageView+AFNetworking.h"
 #import "XLGKQRCodeViewController.h"
-
-@interface XLGKSettingViewController ()
+#import "UMSocial.h"
+@interface XLGKSettingViewController ()<UMSocialUIDelegate>
 {
     UITableView * table;
     NSMutableArray * dataSource;
@@ -31,8 +31,8 @@
     
     //初始化数据源信息
     dataSource = [[NSMutableArray alloc]init];
-    NSArray * arr1 = @[@"微信分享",@"分享应用到微博",@"App Store评分",@"扫一扫"];
-    NSArray * arr2 = @[@"清除图片缓存",@"意见反馈",@"版本"];
+    NSArray * arr1 = @[@"微信分享",@"分享到微博",@"App Store评分",@"扫一扫"];
+    NSArray * arr2 = @[@"清除图片缓存",@"意见反馈",@"POST上传下载",@"本地推送"];
     [dataSource addObject:arr1];
     [dataSource addObject:arr2];
     
@@ -78,7 +78,14 @@
         }
         else if (indexPath.row == 1)
         {
-            
+            //分享操作...友盟分享、ShareSDK分享
+            /*
+             shareText分享的文字
+             shareImage分享的图片
+             shareToSnsNames:分享的渠道
+             delegate:代理方法
+             */
+            [UMSocialSnsService presentSnsIconSheetView:self appKey:@"5640990267e58e77f8001408" shareText:@"测试ing~~~" shareImage:[UIImage imageNamed:@"ni_png_0968.png"] shareToSnsNames:@[UMShareToSina,UMShareToRenren,UMShareToEmail] delegate:self];
         }
         else if(indexPath.row == 2)
         {
@@ -118,6 +125,39 @@
             
             [self presentViewController:alert animated:YES completion:nil];
             
+        }
+        else if (indexPath.row == 2)
+        {
+            
+        }
+        else if (indexPath.row == 3)
+        {
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                
+                UILocalNotification *noti = [[UILocalNotification alloc]init];
+                
+                NSDate *pushDate = [NSDate dateWithTimeIntervalSinceNow:3];
+                
+                if (noti != nil) {
+                    
+                    noti.fireDate = pushDate;
+                    
+                    noti.timeZone = [NSTimeZone defaultTimeZone];
+                    
+                    noti.repeatInterval= kCFCalendarUnitDay;
+                    
+                    noti.soundName = UILocalNotificationDefaultSoundName;
+                    
+                    noti.alertBody = @"到点了,该吃饭了";
+                    
+                    noti.applicationIconBadgeNumber = 0;
+                    
+                    NSDictionary *info  = [NSDictionary dictionaryWithObjectsAndKeys:@"text",@"name",nil];
+                    
+                    noti.userInfo = info;
+                    [[UIApplication sharedApplication] scheduleLocalNotification:noti];
+                }
+            });
         }
     }
 }

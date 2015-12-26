@@ -9,7 +9,6 @@
 #import "XLGKLoadViewController.h"
 #import "AFHTTPRequestOperationManager.h"
 
-#define PATH @"http://media.animusic2.com.s3.amazonaws.com/Animusic-ResonantChamber480p.mov"
 //NSURLSession里面用三个任务 NSURLSessionDataTask 、NSURLSessionDownloadTask、NSURLSessionUploadTask
 @interface XLGKLoadViewController ()<NSURLSessionDownloadDelegate>
 {
@@ -45,7 +44,7 @@
     session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
     
     //<3>将路径转化成NSURL
-    NSURL * url = [NSURL URLWithString:PATH];
+    NSURL * url = [NSURL URLWithString:self.imagePath];
     //<4>创建请求对象
     request = [NSURLRequest requestWithURL:url];
     //<5>进行数据请求
@@ -71,7 +70,7 @@
     NSLog(@"恢复");
     if(!data)
     {
-        NSURL * url = [NSURL URLWithString:PATH];
+        NSURL * url = [NSURL URLWithString:self.imagePath];
         request = [NSURLRequest requestWithURL:url];
         task = [session downloadTaskWithRequest:request];
     }
@@ -93,7 +92,6 @@
     NSString * lastImageName = [[lastPath componentsSeparatedByString:@"."] firstObject];
     
     NSString * document = [NSHomeDirectory() stringByAppendingFormat:@"/Documents/%@.png",lastImageName];
-    NSLog(@"-----%@",self.imagePath);
     NSURL * url = [NSURL fileURLWithPath:document];
     
     //<2>通过文件管理对象将下载下来的文件路径移到url路径下

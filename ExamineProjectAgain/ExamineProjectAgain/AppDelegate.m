@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XLGKTabBarController.h"
-
+#import "UMSocial.h"
 @interface AppDelegate ()
 
 @end
@@ -21,12 +21,26 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
 
+    //设置友盟Key
+    [UMSocialData setAppKey:@"5640990267e58e77f8001408"];
+    
     XLGKTabBarController * myTabBar = [[XLGKTabBarController alloc]init];
     self.window.rootViewController = myTabBar;
+    
+    //注册本地通知
+    [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
     
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+//接收本地推送
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    
+    UIAlertView * _alertView = [[UIAlertView alloc]initWithTitle:@"推送通知" message:notification.alertBody delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    
+    [_alertView show];
+    
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

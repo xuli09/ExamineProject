@@ -8,11 +8,16 @@
 
 #import "XLGKRequestInfo.h"
 #import "AFHTTPRequestOperationManager.h"
-
+#import "MMProgressHUD.h"
 @implementation XLGKRequestInfo
 
 -(void)requestInfoFromPath:(NSString *)path
 {
+    //开始数据请求
+    [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleExpand];
+    
+    [MMProgressHUD showDeterminateProgressWithTitle:nil status:@"正在加载..."];
+    
     //<1>创建请求操作管理者对象
     AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
@@ -25,8 +30,11 @@
         {
             NSLog(@"被动方没有实现协议的方法");
         }
+        [MMProgressHUD dismissWithSuccess:@"加载成功"];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"%@",error.description);
+        [MMProgressHUD dismissWithError:[NSString stringWithFormat:@"%@",error.description]];
+        
     }];
 }
 @end

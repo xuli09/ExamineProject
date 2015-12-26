@@ -130,7 +130,6 @@
 		BD33A4671C2AF2DB0067FD90 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A4521C2AF2DB0067FD90 /* UIScrollView+MJExtension.m */; };
 		BD33A4681C2AF2DB0067FD90 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A4541C2AF2DB0067FD90 /* UIScrollView+MJRefresh.m */; };
 		BD33A4691C2AF2DB0067FD90 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A4561C2AF2DB0067FD90 /* UIView+MJExtension.m */; };
-		BD33A46C1C2AF4BA0067FD90 /* XLActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33A46B1C2AF4BA0067FD90 /* XLActivity.m */; };
 		BD6A13291C2399F900B12291 /* tab_0.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13211C2399F900B12291 /* tab_0.png */; };
 		BD6A132A1C2399F900B12291 /* tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13221C2399F900B12291 /* tab_1.png */; };
 		BD6A132B1C2399F900B12291 /* tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6A13231C2399F900B12291 /* tab_2.png */; };
@@ -153,6 +152,30 @@
 		BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */; };
 		BD6A139E1C23AF0000B12291 /* XLGKGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */; };
 		BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */; };
+		BD9942CB1C2E7E3800016B8C /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD9942B11C2E7E3800016B8C /* UMSocialLocalizable.strings */; };
+		BD9942CC1C2E7E3800016B8C /* libUMSocial_Sdk_4.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9942BF1C2E7E3800016B8C /* libUMSocial_Sdk_4.2.5.a */; };
+		BD9942CD1C2E7E3800016B8C /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C11C2E7E3800016B8C /* UMSCommentDetailController.xib */; };
+		BD9942CE1C2E7E3800016B8C /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C21C2E7E3800016B8C /* UMSCommentInputController.xib */; };
+		BD9942CF1C2E7E3800016B8C /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C31C2E7E3800016B8C /* UMSCommentInputControlleriPad.xib */; };
+		BD9942D01C2E7E3800016B8C /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C41C2E7E3800016B8C /* UMShareEditViewController.xib */; };
+		BD9942D11C2E7E3800016B8C /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C51C2E7E3800016B8C /* UMShareEditViewControlleriPad.xib */; };
+		BD9942D21C2E7E3800016B8C /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C61C2E7E3800016B8C /* UMSLoginViewController.xib */; };
+		BD9942D31C2E7E3800016B8C /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C71C2E7E3800016B8C /* UMSnsAccountViewController.xib */; };
+		BD9942D41C2E7E3800016B8C /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C81C2E7E3800016B8C /* UMSShareListController.xib */; };
+		BD9942D51C2E7E3800016B8C /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD9942C91C2E7E3800016B8C /* UMSocialSDKResourcesNew.bundle */; };
+		BD9942EF1C2E87D500016B8C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BD9942D71C2E87D500016B8C /* LICENSE */; };
+		BD9942F01C2E87D500016B8C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD9942D81C2E87D500016B8C /* README.md */; };
+		BD9942F11C2E87D500016B8C /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942DB1C2E87D500016B8C /* MMHud.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F21C2E87D500016B8C /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942DD1C2E87D500016B8C /* MMLinearProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F31C2E87D500016B8C /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942DF1C2E87D500016B8C /* MMProgressHUD+Animations.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F41C2E87D500016B8C /* MMProgressHUD+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942E01C2E87D500016B8C /* MMProgressHUD+Class.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F51C2E87D500016B8C /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942E21C2E87D500016B8C /* MMProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F61C2E87D500016B8C /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942E51C2E87D500016B8C /* MMProgressHUDOverlayView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F71C2E87D500016B8C /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942E71C2E87D500016B8C /* MMProgressHUDViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F81C2E87D500016B8C /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942E91C2E87D500016B8C /* MMProgressHUDWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942F91C2E87D500016B8C /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942EC1C2E87D500016B8C /* MMRadialProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942FA1C2E87D500016B8C /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9942EE1C2E87D500016B8C /* MMVectorImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD9942FE1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD9942FD1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg */; };
 		BD9972BB1C0F36CC00370820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BA1C0F36CC00370820 /* main.m */; };
 		BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972BD1C0F36CC00370820 /* AppDelegate.m */; };
 		BD9972C11C0F36CC00370820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972C01C0F36CC00370820 /* ViewController.m */; };
@@ -416,8 +439,6 @@
 		BD33A4541C2AF2DB0067FD90 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		BD33A4551C2AF2DB0067FD90 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		BD33A4561C2AF2DB0067FD90 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		BD33A46A1C2AF4BA0067FD90 /* XLActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLActivity.h; sourceTree = "<group>"; };
-		BD33A46B1C2AF4BA0067FD90 /* XLActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLActivity.m; sourceTree = "<group>"; };
 		BD6A13211C2399F900B12291 /* tab_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_0.png; sourceTree = "<group>"; };
 		BD6A13221C2399F900B12291 /* tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_1.png; sourceTree = "<group>"; };
 		BD6A13231C2399F900B12291 /* tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_2.png; sourceTree = "<group>"; };
@@ -449,6 +470,53 @@
 		BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLGKPictureCell.m; sourceTree = "<group>"; };
 		BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLGKGoodsCell.xib; sourceTree = "<group>"; };
 		BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLGKPictureCell.xib; sourceTree = "<group>"; };
+		BD9942B21C2E7E3800016B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		BD9942B41C2E7E3800016B8C /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		BD9942B51C2E7E3800016B8C /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		BD9942B61C2E7E3800016B8C /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		BD9942B71C2E7E3800016B8C /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		BD9942B81C2E7E3800016B8C /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		BD9942B91C2E7E3800016B8C /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		BD9942BA1C2E7E3800016B8C /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		BD9942BB1C2E7E3800016B8C /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		BD9942BC1C2E7E3800016B8C /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		BD9942BD1C2E7E3800016B8C /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		BD9942BE1C2E7E3800016B8C /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		BD9942BF1C2E7E3800016B8C /* libUMSocial_Sdk_4.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.5.a; sourceTree = "<group>"; };
+		BD9942C11C2E7E3800016B8C /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		BD9942C21C2E7E3800016B8C /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		BD9942C31C2E7E3800016B8C /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		BD9942C41C2E7E3800016B8C /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		BD9942C51C2E7E3800016B8C /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		BD9942C61C2E7E3800016B8C /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		BD9942C71C2E7E3800016B8C /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		BD9942C81C2E7E3800016B8C /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		BD9942C91C2E7E3800016B8C /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		BD9942CA1C2E7E3800016B8C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		BD9942D71C2E87D500016B8C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BD9942D81C2E87D500016B8C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD9942DA1C2E87D500016B8C /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
+		BD9942DB1C2E87D500016B8C /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
+		BD9942DC1C2E87D500016B8C /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
+		BD9942DD1C2E87D500016B8C /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
+		BD9942DE1C2E87D500016B8C /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
+		BD9942DF1C2E87D500016B8C /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
+		BD9942E01C2E87D500016B8C /* MMProgressHUD+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Class.m"; sourceTree = "<group>"; };
+		BD9942E11C2E87D500016B8C /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
+		BD9942E21C2E87D500016B8C /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
+		BD9942E31C2E87D500016B8C /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
+		BD9942E41C2E87D500016B8C /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
+		BD9942E51C2E87D500016B8C /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
+		BD9942E61C2E87D500016B8C /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
+		BD9942E71C2E87D500016B8C /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
+		BD9942E81C2E87D500016B8C /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
+		BD9942E91C2E87D500016B8C /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
+		BD9942EA1C2E87D500016B8C /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
+		BD9942EB1C2E87D500016B8C /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
+		BD9942EC1C2E87D500016B8C /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
+		BD9942ED1C2E87D500016B8C /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
+		BD9942EE1C2E87D500016B8C /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		BD9942FD1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1d3e1426ed479bd0f38931ad5d78e0a3.jpg; sourceTree = "<group>"; };
 		BD9972B61C0F36CC00370820 /* ExamineProjectAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamineProjectAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9972BA1C0F36CC00370820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD9972BC1C0F36CC00370820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -478,6 +546,7 @@
 				BD260FF61C2C3DC600539FC1 /* CoreMedia.framework in Frameworks */,
 				BD260FF41C2C3DBF00539FC1 /* AVFoundation.framework in Frameworks */,
 				BD260FB01C2BC6DD00539FC1 /* libsqlite3.tbd in Frameworks */,
+				BD9942CC1C2E7E3800016B8C /* libUMSocial_Sdk_4.2.5.a in Frameworks */,
 				BD26101B1C2C3E3C00539FC1 /* libzbar.a in Frameworks */,
 				BD33A3EB1C279A700067FD90 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -914,6 +983,89 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		BD9942B01C2E7E3800016B8C /* UMSocial_Sdk_4.2.5 */ = {
+			isa = PBXGroup;
+			children = (
+				BD9942B11C2E7E3800016B8C /* UMSocialLocalizable.strings */,
+				BD9942B31C2E7E3800016B8C /* Header */,
+				BD9942BF1C2E7E3800016B8C /* libUMSocial_Sdk_4.2.5.a */,
+				BD9942C01C2E7E3800016B8C /* SocialSDKXib */,
+				BD9942C91C2E7E3800016B8C /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2.5;
+			sourceTree = "<group>";
+		};
+		BD9942B31C2E7E3800016B8C /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				BD9942B41C2E7E3800016B8C /* UMSocial.h */,
+				BD9942B51C2E7E3800016B8C /* UMSocialAccountManager.h */,
+				BD9942B61C2E7E3800016B8C /* UMSocialBar.h */,
+				BD9942B71C2E7E3800016B8C /* UMSocialConfig.h */,
+				BD9942B81C2E7E3800016B8C /* UMSocialControllerService.h */,
+				BD9942B91C2E7E3800016B8C /* UMSocialControllerServiceComment.h */,
+				BD9942BA1C2E7E3800016B8C /* UMSocialData.h */,
+				BD9942BB1C2E7E3800016B8C /* UMSocialDataService.h */,
+				BD9942BC1C2E7E3800016B8C /* UMSocialSnsData.h */,
+				BD9942BD1C2E7E3800016B8C /* UMSocialSnsPlatformManager.h */,
+				BD9942BE1C2E7E3800016B8C /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		BD9942C01C2E7E3800016B8C /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				BD9942C11C2E7E3800016B8C /* UMSCommentDetailController.xib */,
+				BD9942C21C2E7E3800016B8C /* UMSCommentInputController.xib */,
+				BD9942C31C2E7E3800016B8C /* UMSCommentInputControlleriPad.xib */,
+				BD9942C41C2E7E3800016B8C /* UMShareEditViewController.xib */,
+				BD9942C51C2E7E3800016B8C /* UMShareEditViewControlleriPad.xib */,
+				BD9942C61C2E7E3800016B8C /* UMSLoginViewController.xib */,
+				BD9942C71C2E7E3800016B8C /* UMSnsAccountViewController.xib */,
+				BD9942C81C2E7E3800016B8C /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		BD9942D61C2E87D500016B8C /* MMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BD9942D71C2E87D500016B8C /* LICENSE */,
+				BD9942D81C2E87D500016B8C /* README.md */,
+				BD9942D91C2E87D500016B8C /* Source */,
+			);
+			path = MMProgressHUD;
+			sourceTree = "<group>";
+		};
+		BD9942D91C2E87D500016B8C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BD9942DA1C2E87D500016B8C /* MMHud.h */,
+				BD9942DB1C2E87D500016B8C /* MMHud.m */,
+				BD9942DC1C2E87D500016B8C /* MMLinearProgressView.h */,
+				BD9942DD1C2E87D500016B8C /* MMLinearProgressView.m */,
+				BD9942DE1C2E87D500016B8C /* MMProgressHUD+Animations.h */,
+				BD9942DF1C2E87D500016B8C /* MMProgressHUD+Animations.m */,
+				BD9942E01C2E87D500016B8C /* MMProgressHUD+Class.m */,
+				BD9942E11C2E87D500016B8C /* MMProgressHUD.h */,
+				BD9942E21C2E87D500016B8C /* MMProgressHUD.m */,
+				BD9942E31C2E87D500016B8C /* MMProgressHUDCommon.h */,
+				BD9942E41C2E87D500016B8C /* MMProgressHUDOverlayView.h */,
+				BD9942E51C2E87D500016B8C /* MMProgressHUDOverlayView.m */,
+				BD9942E61C2E87D500016B8C /* MMProgressHUDViewController.h */,
+				BD9942E71C2E87D500016B8C /* MMProgressHUDViewController.m */,
+				BD9942E81C2E87D500016B8C /* MMProgressHUDWindow.h */,
+				BD9942E91C2E87D500016B8C /* MMProgressHUDWindow.m */,
+				BD9942EA1C2E87D500016B8C /* MMProgressView-Protocol.h */,
+				BD9942EB1C2E87D500016B8C /* MMRadialProgressView.h */,
+				BD9942EC1C2E87D500016B8C /* MMRadialProgressView.m */,
+				BD9942ED1C2E87D500016B8C /* MMVectorImage.h */,
+				BD9942EE1C2E87D500016B8C /* MMVectorImage.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		BD9972AD1C0F36CC00370820 = {
 			isa = PBXGroup;
 			children = (
@@ -994,6 +1146,8 @@
 		BD9973001C0F3F5B00370820 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BD9942D61C2E87D500016B8C /* MMProgressHUD */,
+				BD9942B01C2E7E3800016B8C /* UMSocial_Sdk_4.2.5 */,
 				BD2610231C2C430D00539FC1 /* libqrencode */,
 				BD2610341C2C430D00539FC1 /* Masonry */,
 				BD260FFD1C2C3E3C00539FC1 /* ZBarSDK */,
@@ -1049,8 +1203,6 @@
 				BD6A13551C23AD1E00B12291 /* XLGKPictureCell.h */,
 				BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */,
 				BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */,
-				BD33A46A1C2AF4BA0067FD90 /* XLActivity.h */,
-				BD33A46B1C2AF4BA0067FD90 /* XLActivity.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1060,6 +1212,7 @@
 			children = (
 				BD6A13201C2399F900B12291 /* images */,
 				BD6A13411C239CD600B12291 /* TabContent.plist */,
+				BD9942FD1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg */,
 				BD260F891C2BB39300539FC1 /* InfoPList.strings */,
 			);
 			name = Sources;
@@ -1161,6 +1314,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BD9972AD1C0F36CC00370820;
 			productRefGroup = BD9972B71C0F36CC00370820 /* Products */;
@@ -1179,21 +1333,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9942D01C2E7E3800016B8C /* UMShareEditViewController.xib in Resources */,
 				BD260F541C2B835A00539FC1 /* ni_png_0969.png in Resources */,
+				BD9942D31C2E7E3800016B8C /* UMSnsAccountViewController.xib in Resources */,
 				BD6A133F1C239C0A00B12291 /* tabbar_bg.png in Resources */,
 				BD6A132F1C2399F900B12291 /* tab_c2.png in Resources */,
+				BD9942D21C2E7E3800016B8C /* UMSLoginViewController.xib in Resources */,
 				BD9972C91C0F36CC00370820 /* LaunchScreen.storyboard in Resources */,
 				BD2610721C2C464600539FC1 /* qrcode_scan_btn_myqrcode_down@2x.png in Resources */,
 				BD9972C61C0F36CC00370820 /* Assets.xcassets in Resources */,
+				BD9942CE1C2E7E3800016B8C /* UMSCommentInputController.xib in Resources */,
 				BD16064B1C2D383D001DEEF9 /* XLGKLoadViewController.xib in Resources */,
 				BD6A132B1C2399F900B12291 /* tab_2.png in Resources */,
 				BD2610701C2C464100539FC1 /* qrcode_scan_btn_flash_nor@2x.png in Resources */,
 				BD26101F1C2C3E3C00539FC1 /* zbar-samples.png in Resources */,
 				BD6A132C1C2399F900B12291 /* tab_3.png in Resources */,
 				BD2610781C2C465C00539FC1 /* qrcode_scan_btn_photo_nor@2x.png in Resources */,
+				BD9942D11C2E7E3800016B8C /* UMShareEditViewControlleriPad.xib in Resources */,
 				BD260FE81C2BC77600539FC1 /* star_icon@2x.png in Resources */,
 				BD6A13A01C23AF1600B12291 /* XLGKPictureCell.xib in Resources */,
 				BD26106C1C2C462100539FC1 /* 6824500_006_thumb.jpg in Resources */,
+				BD9942FE1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg in Resources */,
 				BD26101C1C2C3E3C00539FC1 /* zbar-back.png in Resources */,
 				BD2610801C2C467800539FC1 /* qrcode_scan_titlebar_back_pressed@2x.png in Resources */,
 				BD260FEC1C2BC77600539FC1 /* topic_Download.png in Resources */,
@@ -1201,6 +1361,7 @@
 				BD260FE71C2BC77600539FC1 /* star2_Gray@2x.png in Resources */,
 				BD2610741C2C464C00539FC1 /* qrcode_scan_btn_myqrcode_nor@2x.png in Resources */,
 				BD26107C1C2C466700539FC1 /* qrcode_scan_light_green@2x.png in Resources */,
+				BD9942CB1C2E7E3800016B8C /* UMSocialLocalizable.strings in Resources */,
 				BD260F551C2B835A00539FC1 /* ni_png_0071.png in Resources */,
 				BD6A13421C239CD600B12291 /* TabContent.plist in Resources */,
 				BD1605CF1C2D1D4F001DEEF9 /* file_pause_normal.png in Resources */,
@@ -1208,10 +1369,12 @@
 				BD260F561C2B835A00539FC1 /* ni_png_0072.png in Resources */,
 				BD2610571C2C430D00539FC1 /* Info.plist in Resources */,
 				BD6A13401C239C0A00B12291 /* tabbar_bg@2x.png in Resources */,
+				BD9942D41C2E7E3800016B8C /* UMSShareListController.xib in Resources */,
 				BD2610881C2C468F00539FC1 /* scan_4@2x.png in Resources */,
 				BD6A13291C2399F900B12291 /* tab_0.png in Resources */,
 				BD6A13301C2399F900B12291 /* tab_c3.png in Resources */,
 				BD26101D1C2C3E3C00539FC1 /* zbar-help.html in Resources */,
+				BD9942EF1C2E87D500016B8C /* LICENSE in Resources */,
 				BD2610841C2C468500539FC1 /* scan_2@2x.png in Resources */,
 				BD6A132E1C2399F900B12291 /* tab_c1.png in Resources */,
 				BD26101E1C2C3E3C00539FC1 /* zbar-helpicons.png in Resources */,
@@ -1220,7 +1383,9 @@
 				BD26107E1C2C466F00539FC1 /* qrcode_scan_titlebar_back_nor@2x.png in Resources */,
 				BD2610761C2C465600539FC1 /* qrcode_scan_btn_photo_down@2x.png in Resources */,
 				BD260FEB1C2BC77600539FC1 /* topic_Comment.png in Resources */,
+				BD9942CF1C2E7E3800016B8C /* UMSCommentInputControlleriPad.xib in Resources */,
 				BD6A132A1C2399F900B12291 /* tab_1.png in Resources */,
+				BD9942D51C2E7E3800016B8C /* UMSocialSDKResourcesNew.bundle in Resources */,
 				BD26108A1C2C469400539FC1 /* scan_net@2x.png in Resources */,
 				BD6A132D1C2399F900B12291 /* tab_c0.png in Resources */,
 				BD33A4651C2AF2DB0067FD90 /* MJRefresh.bundle in Resources */,
@@ -1228,6 +1393,7 @@
 				BD260F871C2BB39300539FC1 /* InfoPList.strings in Resources */,
 				BD9972C41C0F36CC00370820 /* Main.storyboard in Resources */,
 				BD260F531C2B835A00539FC1 /* ni_png_0968.png in Resources */,
+				BD9942CD1C2E7E3800016B8C /* UMSCommentDetailController.xib in Resources */,
 				BD26107A1C2C466200539FC1 /* qrcode_scan_btn_scan_off@2x.png in Resources */,
 				BD2610821C2C467E00539FC1 /* scan_1@2x.png in Resources */,
 			);
@@ -1263,6 +1429,7 @@
 				BD33A4681C2AF2DB0067FD90 /* UIScrollView+MJRefresh.m in Sources */,
 				BD33A4221C27D9DE0067FD90 /* UIButton+AFNetworking.m in Sources */,
 				BD2610641C2C458000539FC1 /* UIView+SDExtension.m in Sources */,
+				BD9942F11C2E87D500016B8C /* MMHud.m in Sources */,
 				BD6A13451C239D7400B12291 /* XLGKSearchController.m in Sources */,
 				BD33A45A1C2AF2DB0067FD90 /* MJRefreshFooter.m in Sources */,
 				BD260FAA1C2BC6CD00539FC1 /* FMDatabase.m in Sources */,
@@ -1296,6 +1463,7 @@
 				BD2610221C2C3EE100539FC1 /* XLGKQRCodeViewController.m in Sources */,
 				BD260FE91C2BC77600539FC1 /* TJListCell.m in Sources */,
 				BD33A41C1C27D9DE0067FD90 /* AFURLRequestSerialization.m in Sources */,
+				BD9942F31C2E87D500016B8C /* MMProgressHUD+Animations.m in Sources */,
 				BD260FAD1C2BC6CD00539FC1 /* FMDatabaseQueue.m in Sources */,
 				BD26104F1C2C430D00539FC1 /* bitstream.c in Sources */,
 				BD260FE61C2BC77600539FC1 /* SecondViewController.m in Sources */,
@@ -1303,17 +1471,22 @@
 				BD260FED1C2BC77600539FC1 /* ZLScrollView.m in Sources */,
 				BD33A41E1C27D9DE0067FD90 /* AFURLSessionManager.m in Sources */,
 				BD2610541C2C430D00539FC1 /* qrspec.c in Sources */,
+				BD9942F51C2E87D500016B8C /* MMProgressHUD.m in Sources */,
 				BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */,
 				BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */,
 				BD33A4201C27D9DE0067FD90 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				BD6A13361C239A6600B12291 /* XLGKRootViewController.m in Sources */,
+				BD9942F81C2E87D500016B8C /* MMProgressHUDWindow.m in Sources */,
+				BD9942F21C2E87D500016B8C /* MMLinearProgressView.m in Sources */,
 				BD260FAE1C2BC6CD00539FC1 /* FMResultSet.m in Sources */,
 				BD2610581C2C430D00539FC1 /* MASCompositeConstraint.m in Sources */,
 				BD260FE41C2BC77600539FC1 /* MyCollectionViewCellNormal.m in Sources */,
 				BD26105B1C2C430D00539FC1 /* MASLayoutConstraint.m in Sources */,
 				BD260F5C1C2B884A00539FC1 /* XLGKPicDetailViewController.m in Sources */,
+				BD9942F01C2E87D500016B8C /* README.md in Sources */,
 				BD33A45C1C2AF2DB0067FD90 /* MJRefreshAutoGifFooter.m in Sources */,
 				BD26105F1C2C430D00539FC1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BD9942FA1C2E87D500016B8C /* MMVectorImage.m in Sources */,
 				BD26105C1C2C430D00539FC1 /* MASViewAttribute.m in Sources */,
 				BD26105A1C2C430D00539FC1 /* MASConstraintMaker.m in Sources */,
 				BD2610511C2C430D00539FC1 /* QRCodeGenerator.m in Sources */,
@@ -1323,6 +1496,7 @@
 				BD9972BE1C0F36CC00370820 /* AppDelegate.m in Sources */,
 				BD9972BB1C0F36CC00370820 /* main.m in Sources */,
 				BD260FD91C2BC77600539FC1 /* FMDBManager.m in Sources */,
+				BD9942F61C2E87D500016B8C /* MMProgressHUDOverlayView.m in Sources */,
 				BD260FDF1C2BC77600539FC1 /* HeaderDetailViewController.m in Sources */,
 				BD26105E1C2C430D00539FC1 /* NSArray+MASAdditions.m in Sources */,
 				BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */,
@@ -1330,23 +1504,25 @@
 				BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */,
 				BD33A41A1C27D9DE0067FD90 /* AFSecurityPolicy.m in Sources */,
 				BD26105D1C2C430D00539FC1 /* MASViewConstraint.m in Sources */,
-				BD33A46C1C2AF4BA0067FD90 /* XLActivity.m in Sources */,
 				BD33A4251C27D9DE0067FD90 /* UIRefreshControl+AFNetworking.m in Sources */,
 				BD2610531C2C430D00539FC1 /* qrinput.c in Sources */,
 				BD33A4631C2AF2DB0067FD90 /* MJRefreshNormalHeader.m in Sources */,
 				BD2610561C2C430D00539FC1 /* split.c in Sources */,
 				BD33A4691C2AF2DB0067FD90 /* UIView+MJExtension.m in Sources */,
 				BD33A4211C27D9DE0067FD90 /* UIAlertView+AFNetworking.m in Sources */,
+				BD9942F91C2E87D500016B8C /* MMRadialProgressView.m in Sources */,
 				BD33A45D1C2AF2DB0067FD90 /* MJRefreshAutoNormalFooter.m in Sources */,
 				BD260FEA1C2BC77600539FC1 /* TJListViewController.m in Sources */,
 				BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */,
 				BD33A4171C27D9DE0067FD90 /* AFHTTPRequestOperationManager.m in Sources */,
 				BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */,
 				BD260FE31C2BC77600539FC1 /* MyCollectionViewCell.m in Sources */,
+				BD9942F41C2E87D500016B8C /* MMProgressHUD+Class.m in Sources */,
 				BD2610611C2C430D00539FC1 /* ViewController+MASAdditions.m in Sources */,
 				BD33A4591C2AF2DB0067FD90 /* MJRefreshComponent.m in Sources */,
 				BD33A41D1C27D9DE0067FD90 /* AFURLResponseSerialization.m in Sources */,
 				BD33A41F1C27D9DE0067FD90 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				BD9942F71C2E87D500016B8C /* MMProgressHUDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1390,6 +1566,15 @@
 			);
 			name = InfoPList.strings;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		BD9942B11C2E7E3800016B8C /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9942B21C2E7E3800016B8C /* en */,
+				BD9942CA1C2E7E3800016B8C /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
 			sourceTree = "<group>";
 		};
 		BD9972C21C0F36CC00370820 /* Main.storyboard */ = {
@@ -1504,6 +1689,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ExamineProjectAgain/ZBarSDK",
+					"$(PROJECT_DIR)/ExamineProjectAgain/UMSocial_Sdk_4.2.5",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xuli.ExamineProjectAgain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1519,6 +1705,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ExamineProjectAgain/ZBarSDK",
+					"$(PROJECT_DIR)/ExamineProjectAgain/UMSocial_Sdk_4.2.5",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = xuli.ExamineProjectAgain;
 				PRODUCT_NAME = "$(TARGET_NAME)";

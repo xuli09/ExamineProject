@@ -16,38 +16,66 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-2h-UiK">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="6824500_006_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-2h-UiK">
                     <rect key="frame" x="20" y="47" width="335" height="352"/>
                     <color key="backgroundColor" red="0.29550942493618371" green="1" blue="0.13584235476330953" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-gr-8lI">
-                    <rect key="frame" x="26" y="514" width="30" height="30"/>
-                    <state key="normal" title="开始"/>
-                    <connections>
-                        <action selector="start:" destination="-1" eventType="touchUpInside" id="Dlu-oK-r7j"/>
-                    </connections>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zec-em-qag">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zec-em-qag">
                     <rect key="frame" x="172" y="514" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Dme-cj-lJu"/>
+                    </constraints>
                     <state key="normal" title="暂停"/>
                     <connections>
                         <action selector="pause:" destination="-1" eventType="touchUpInside" id="ROV-3o-ZIm"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abD-Kl-X5S">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abD-Kl-X5S">
                     <rect key="frame" x="325" y="514" width="30" height="30"/>
                     <state key="normal" title="恢复"/>
                     <connections>
                         <action selector="resume:" destination="-1" eventType="touchUpInside" id="AuS-qq-SMY"/>
                     </connections>
                 </button>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tng-CT-haT">
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tng-CT-haT">
                     <rect key="frame" x="20" y="461" width="335" height="2"/>
                 </progressView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-gr-8lI">
+                    <rect key="frame" x="26" y="514" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Oay-7X-CIO"/>
+                    </constraints>
+                    <state key="normal" title="开始"/>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="Dlu-oK-r7j"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.15055082897033145" green="0.15055082897033145" blue="0.15055082897033145" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="5We-gr-8lI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="26" id="9B8-fI-xEp"/>
+                <constraint firstItem="tng-CT-haT" firstAttribute="top" secondItem="nFs-2h-UiK" secondAttribute="bottom" constant="62" id="Dwy-gi-Eur"/>
+                <constraint firstAttribute="bottom" secondItem="zec-em-qag" secondAttribute="bottom" constant="123" id="FRd-b8-Aib"/>
+                <constraint firstAttribute="bottom" secondItem="abD-Kl-X5S" secondAttribute="bottom" constant="123" id="HVC-LQ-g28"/>
+                <constraint firstAttribute="trailing" secondItem="tng-CT-haT" secondAttribute="trailing" constant="20" id="K0z-Zg-rUy"/>
+                <constraint firstItem="zec-em-qag" firstAttribute="top" secondItem="tng-CT-haT" secondAttribute="bottom" constant="51" id="Kca-1V-SRz"/>
+                <constraint firstAttribute="bottom" secondItem="5We-gr-8lI" secondAttribute="bottom" constant="123" id="UWL-5W-ORf"/>
+                <constraint firstItem="zec-em-qag" firstAttribute="height" secondItem="5We-gr-8lI" secondAttribute="height" id="Wqw-yE-GyM"/>
+                <constraint firstItem="5We-gr-8lI" firstAttribute="top" secondItem="tng-CT-haT" secondAttribute="bottom" constant="51" id="bKI-dp-6Zf"/>
+                <constraint firstItem="abD-Kl-X5S" firstAttribute="height" secondItem="5We-gr-8lI" secondAttribute="height" id="dcG-Bf-kbp"/>
+                <constraint firstItem="zec-em-qag" firstAttribute="centerX" secondItem="tng-CT-haT" secondAttribute="centerX" id="dml-dB-xqa"/>
+                <constraint firstAttribute="trailing" secondItem="nFs-2h-UiK" secondAttribute="trailing" constant="20" id="kTX-LE-5rY"/>
+                <constraint firstAttribute="trailing" secondItem="abD-Kl-X5S" secondAttribute="trailing" constant="20" id="mGd-Jy-j5P"/>
+                <constraint firstItem="tng-CT-haT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="phK-dA-pDk"/>
+                <constraint firstItem="abD-Kl-X5S" firstAttribute="top" secondItem="tng-CT-haT" secondAttribute="bottom" constant="51" id="qRu-U1-Cgt"/>
+                <constraint firstItem="nFs-2h-UiK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="rRD-av-hCc"/>
+                <constraint firstItem="nFs-2h-UiK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="47" id="xvA-lO-tr0"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="348.5" y="347.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="6824500_006_thumb.jpg" width="200" height="200"/>
+    </resources>
 </document>
