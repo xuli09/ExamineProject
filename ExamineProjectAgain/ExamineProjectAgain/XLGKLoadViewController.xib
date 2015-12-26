@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="6824500_006_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-2h-UiK">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="6824500_006_thumb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-2h-UiK">
                     <rect key="frame" x="20" y="47" width="335" height="352"/>
                     <color key="backgroundColor" red="0.29550942493618371" green="1" blue="0.13584235476330953" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
@@ -37,7 +37,7 @@
                         <action selector="resume:" destination="-1" eventType="touchUpInside" id="AuS-qq-SMY"/>
                     </connections>
                 </button>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tng-CT-haT">
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tng-CT-haT">
                     <rect key="frame" x="20" y="461" width="335" height="2"/>
                 </progressView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-gr-8lI">

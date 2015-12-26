@@ -232,34 +232,34 @@
 		BD260FA81C2BC6CD00539FC1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		BD260FA91C2BC6CD00539FC1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		BD260FAF1C2BC6DD00539FC1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		BD260FB21C2BC77600539FC1 /* FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
-		BD260FB31C2BC77600539FC1 /* FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
+		BD260FB21C2BC77600539FC1 /* FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDBManager.h; path = search/FMDBManager.h; sourceTree = "<group>"; };
+		BD260FB31C2BC77600539FC1 /* FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDBManager.m; path = search/FMDBManager.m; sourceTree = "<group>"; };
 		BD260FBF1C2BC77600539FC1 /* HeaderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDetailViewController.h; sourceTree = "<group>"; };
 		BD260FC01C2BC77600539FC1 /* HeaderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderDetailViewController.m; sourceTree = "<group>"; };
-		BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderScrollView.h; sourceTree = "<group>"; };
-		BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderScrollView.m; sourceTree = "<group>"; };
+		BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderScrollView.h; path = search/HeaderScrollView.h; sourceTree = "<group>"; };
+		BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderScrollView.m; path = search/HeaderScrollView.m; sourceTree = "<group>"; };
 		BD260FC31C2BC77600539FC1 /* HotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDetailViewController.h; sourceTree = "<group>"; };
 		BD260FC41C2BC77600539FC1 /* HotDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDetailViewController.m; sourceTree = "<group>"; };
-		BD260FC51C2BC77600539FC1 /* LabelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelHeader.h; sourceTree = "<group>"; };
-		BD260FC61C2BC77600539FC1 /* LabelHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelHeader.m; sourceTree = "<group>"; };
-		BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
-		BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		BD260FC51C2BC77600539FC1 /* LabelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelHeader.h; path = search/LabelHeader.h; sourceTree = "<group>"; };
+		BD260FC61C2BC77600539FC1 /* LabelHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelHeader.m; path = search/LabelHeader.m; sourceTree = "<group>"; };
+		BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionViewCell.h; path = search/MyCollectionViewCell.h; sourceTree = "<group>"; };
+		BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCollectionViewCell.m; path = search/MyCollectionViewCell.m; sourceTree = "<group>"; };
 		BD260FC91C2BC77600539FC1 /* MyCollectionViewCellNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellNormal.h; sourceTree = "<group>"; };
 		BD260FCA1C2BC77600539FC1 /* MyCollectionViewCellNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellNormal.m; sourceTree = "<group>"; };
-		BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCellScrolling.h; sourceTree = "<group>"; };
-		BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCellScrolling.m; sourceTree = "<group>"; };
+		BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionViewCellScrolling.h; path = search/MyCollectionViewCellScrolling.h; sourceTree = "<group>"; };
+		BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCollectionViewCellScrolling.m; path = search/MyCollectionViewCellScrolling.m; sourceTree = "<group>"; };
 		BD260FCD1C2BC77600539FC1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		BD260FCE1C2BC77600539FC1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star2_Gray@2x.png"; sourceTree = "<group>"; };
-		BD260FD01C2BC77600539FC1 /* star_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_icon@2x.png"; sourceTree = "<group>"; };
-		BD260FD11C2BC77600539FC1 /* TJListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJListCell.h; sourceTree = "<group>"; };
-		BD260FD21C2BC77600539FC1 /* TJListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJListCell.m; sourceTree = "<group>"; };
+		BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star2_Gray@2x.png"; path = "search/star2_Gray@2x.png"; sourceTree = "<group>"; };
+		BD260FD01C2BC77600539FC1 /* star_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_icon@2x.png"; path = "search/star_icon@2x.png"; sourceTree = "<group>"; };
+		BD260FD11C2BC77600539FC1 /* TJListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TJListCell.h; path = search/TJListCell.h; sourceTree = "<group>"; };
+		BD260FD21C2BC77600539FC1 /* TJListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TJListCell.m; path = search/TJListCell.m; sourceTree = "<group>"; };
 		BD260FD31C2BC77600539FC1 /* TJListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJListViewController.h; sourceTree = "<group>"; };
 		BD260FD41C2BC77600539FC1 /* TJListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJListViewController.m; sourceTree = "<group>"; };
-		BD260FD51C2BC77600539FC1 /* topic_Comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Comment.png; sourceTree = "<group>"; };
-		BD260FD61C2BC77600539FC1 /* topic_Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topic_Download.png; sourceTree = "<group>"; };
-		BD260FD71C2BC77600539FC1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
-		BD260FD81C2BC77600539FC1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
+		BD260FD51C2BC77600539FC1 /* topic_Comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topic_Comment.png; path = search/topic_Comment.png; sourceTree = "<group>"; };
+		BD260FD61C2BC77600539FC1 /* topic_Download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topic_Download.png; path = search/topic_Download.png; sourceTree = "<group>"; };
+		BD260FD71C2BC77600539FC1 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLScrollView.h; path = search/ZLScrollView.h; sourceTree = "<group>"; };
+		BD260FD81C2BC77600539FC1 /* ZLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLScrollView.m; path = search/ZLScrollView.m; sourceTree = "<group>"; };
 		BD260FEE1C2BDC7000539FC1 /* LSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScanViewController.h; sourceTree = "<group>"; };
 		BD260FEF1C2BDC7000539FC1 /* LSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSScanViewController.m; sourceTree = "<group>"; };
 		BD260FF01C2BDC7000539FC1 /* LSScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSScanViewController.xib; sourceTree = "<group>"; };
@@ -586,41 +586,24 @@
 			path = "FMDB数据库";
 			sourceTree = "<group>";
 		};
-		BD260FB11C2BC77600539FC1 /* search */ = {
+		BD260FB11C2BC77600539FC1 /* zhulei */ = {
 			isa = PBXGroup;
 			children = (
 				BD260FEE1C2BDC7000539FC1 /* LSScanViewController.h */,
 				BD260FEF1C2BDC7000539FC1 /* LSScanViewController.m */,
 				BD260FF01C2BDC7000539FC1 /* LSScanViewController.xib */,
-				BD260FB21C2BC77600539FC1 /* FMDBManager.h */,
-				BD260FB31C2BC77600539FC1 /* FMDBManager.m */,
 				BD260FBF1C2BC77600539FC1 /* HeaderDetailViewController.h */,
 				BD260FC01C2BC77600539FC1 /* HeaderDetailViewController.m */,
-				BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */,
-				BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */,
 				BD260FC31C2BC77600539FC1 /* HotDetailViewController.h */,
 				BD260FC41C2BC77600539FC1 /* HotDetailViewController.m */,
-				BD260FC51C2BC77600539FC1 /* LabelHeader.h */,
-				BD260FC61C2BC77600539FC1 /* LabelHeader.m */,
-				BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */,
-				BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */,
 				BD260FC91C2BC77600539FC1 /* MyCollectionViewCellNormal.h */,
 				BD260FCA1C2BC77600539FC1 /* MyCollectionViewCellNormal.m */,
-				BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */,
-				BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */,
 				BD260FCD1C2BC77600539FC1 /* SecondViewController.h */,
 				BD260FCE1C2BC77600539FC1 /* SecondViewController.m */,
-				BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */,
-				BD260FD01C2BC77600539FC1 /* star_icon@2x.png */,
-				BD260FD11C2BC77600539FC1 /* TJListCell.h */,
-				BD260FD21C2BC77600539FC1 /* TJListCell.m */,
 				BD260FD31C2BC77600539FC1 /* TJListViewController.h */,
 				BD260FD41C2BC77600539FC1 /* TJListViewController.m */,
-				BD260FD51C2BC77600539FC1 /* topic_Comment.png */,
-				BD260FD61C2BC77600539FC1 /* topic_Download.png */,
-				BD260FD71C2BC77600539FC1 /* ZLScrollView.h */,
-				BD260FD81C2BC77600539FC1 /* ZLScrollView.m */,
 			);
+			name = zhulei;
 			path = search;
 			sourceTree = "<group>";
 		};
@@ -914,32 +897,8 @@
 		BD6A131F1C23955700B12291 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BD260FB11C2BC77600539FC1 /* search */,
-				BD6A13311C239A4100B12291 /* XLGKTabBarController.h */,
-				BD6A13321C239A4100B12291 /* XLGKTabBarController.m */,
-				BD6A13341C239A6600B12291 /* XLGKRootViewController.h */,
-				BD6A13351C239A6600B12291 /* XLGKRootViewController.m */,
-				BD33A4271C2AE45A0067FD90 /* XLGKALLViewController.h */,
-				BD33A4281C2AE45A0067FD90 /* XLGKALLViewController.m */,
-				BD6A13371C239ACF00B12291 /* XLGKGoodsViewController.h */,
-				BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */,
-				BD6A133A1C239B5A00B12291 /* XLGKPictureController.h */,
-				BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */,
-				BD6A13431C239D7400B12291 /* XLGKSearchController.h */,
-				BD6A13441C239D7400B12291 /* XLGKSearchController.m */,
-				BD6A13461C239D8F00B12291 /* XLGKOtherViewController.h */,
-				BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */,
-				BD6A13491C239DAC00B12291 /* XLGKSettingViewController.h */,
-				BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */,
-				BD260F5A1C2B884A00539FC1 /* XLGKPicDetailViewController.h */,
-				BD260F5B1C2B884A00539FC1 /* XLGKPicDetailViewController.m */,
-				BD2610201C2C3EE100539FC1 /* XLGKQRCodeViewController.h */,
-				BD2610211C2C3EE100539FC1 /* XLGKQRCodeViewController.m */,
-				BD2610651C2C458F00539FC1 /* XLGKStartQRViewController.h */,
-				BD2610661C2C458F00539FC1 /* XLGKStartQRViewController.m */,
-				BD1606471C2D383D001DEEF9 /* XLGKLoadViewController.h */,
-				BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */,
-				BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */,
+				BD9942FF1C2E96F700016B8C /* xuli */,
+				BD260FB11C2BC77600539FC1 /* zhulei */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1066,6 +1025,92 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		BD9942FF1C2E96F700016B8C /* xuli */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A13311C239A4100B12291 /* XLGKTabBarController.h */,
+				BD6A13321C239A4100B12291 /* XLGKTabBarController.m */,
+				BD6A13341C239A6600B12291 /* XLGKRootViewController.h */,
+				BD6A13351C239A6600B12291 /* XLGKRootViewController.m */,
+				BD33A4271C2AE45A0067FD90 /* XLGKALLViewController.h */,
+				BD33A4281C2AE45A0067FD90 /* XLGKALLViewController.m */,
+				BD6A13371C239ACF00B12291 /* XLGKGoodsViewController.h */,
+				BD6A13381C239ACF00B12291 /* XLGKGoodsViewController.m */,
+				BD6A133A1C239B5A00B12291 /* XLGKPictureController.h */,
+				BD6A133B1C239B5A00B12291 /* XLGKPictureController.m */,
+				BD6A13431C239D7400B12291 /* XLGKSearchController.h */,
+				BD6A13441C239D7400B12291 /* XLGKSearchController.m */,
+				BD6A13461C239D8F00B12291 /* XLGKOtherViewController.h */,
+				BD6A13471C239D8F00B12291 /* XLGKOtherViewController.m */,
+				BD6A13491C239DAC00B12291 /* XLGKSettingViewController.h */,
+				BD6A134A1C239DAC00B12291 /* XLGKSettingViewController.m */,
+				BD260F5A1C2B884A00539FC1 /* XLGKPicDetailViewController.h */,
+				BD260F5B1C2B884A00539FC1 /* XLGKPicDetailViewController.m */,
+				BD2610201C2C3EE100539FC1 /* XLGKQRCodeViewController.h */,
+				BD2610211C2C3EE100539FC1 /* XLGKQRCodeViewController.m */,
+				BD2610651C2C458F00539FC1 /* XLGKStartQRViewController.h */,
+				BD2610661C2C458F00539FC1 /* XLGKStartQRViewController.m */,
+				BD1606471C2D383D001DEEF9 /* XLGKLoadViewController.h */,
+				BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */,
+				BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */,
+			);
+			name = xuli;
+			sourceTree = "<group>";
+		};
+		BD9943001C2E973800016B8C /* xuliModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */,
+				BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */,
+				BD33A3E21C27938F0067FD90 /* XLGKGoodsInfo.h */,
+				BD33A3E31C27938F0067FD90 /* XLGKGoodsInfo.m */,
+			);
+			name = xuliModel;
+			sourceTree = "<group>";
+		};
+		BD9943011C2E974C00016B8C /* zhuleiModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD260FB21C2BC77600539FC1 /* FMDBManager.h */,
+				BD260FB31C2BC77600539FC1 /* FMDBManager.m */,
+			);
+			name = zhuleiModel;
+			sourceTree = "<group>";
+		};
+		BD9943021C2E978400016B8C /* xuliView */ = {
+			isa = PBXGroup;
+			children = (
+				BD2610621C2C458000539FC1 /* UIView+SDExtension.h */,
+				BD2610631C2C458000539FC1 /* UIView+SDExtension.m */,
+				BD6A13521C23AD0B00B12291 /* XLGKGoodsCell.h */,
+				BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */,
+				BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */,
+				BD6A13551C23AD1E00B12291 /* XLGKPictureCell.h */,
+				BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */,
+				BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */,
+			);
+			name = xuliView;
+			sourceTree = "<group>";
+		};
+		BD9943031C2E979800016B8C /* zhuleiView */ = {
+			isa = PBXGroup;
+			children = (
+				BD260FCB1C2BC77600539FC1 /* MyCollectionViewCellScrolling.h */,
+				BD260FCC1C2BC77600539FC1 /* MyCollectionViewCellScrolling.m */,
+				BD260FC11C2BC77600539FC1 /* HeaderScrollView.h */,
+				BD260FC21C2BC77600539FC1 /* HeaderScrollView.m */,
+				BD260FC51C2BC77600539FC1 /* LabelHeader.h */,
+				BD260FC61C2BC77600539FC1 /* LabelHeader.m */,
+				BD260FC71C2BC77600539FC1 /* MyCollectionViewCell.h */,
+				BD260FC81C2BC77600539FC1 /* MyCollectionViewCell.m */,
+				BD260FD11C2BC77600539FC1 /* TJListCell.h */,
+				BD260FD21C2BC77600539FC1 /* TJListCell.m */,
+				BD260FD71C2BC77600539FC1 /* ZLScrollView.h */,
+				BD260FD81C2BC77600539FC1 /* ZLScrollView.m */,
+			);
+			name = zhuleiView;
+			sourceTree = "<group>";
+		};
 		BD9972AD1C0F36CC00370820 = {
 			isa = PBXGroup;
 			children = (
@@ -1161,10 +1206,8 @@
 		BD9973011C0F3F6300370820 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BD33A3DF1C2793770067FD90 /* XLGKRequestInfo.h */,
-				BD33A3E01C2793770067FD90 /* XLGKRequestInfo.m */,
-				BD33A3E21C27938F0067FD90 /* XLGKGoodsInfo.h */,
-				BD33A3E31C27938F0067FD90 /* XLGKGoodsInfo.m */,
+				BD9943011C2E974C00016B8C /* zhuleiModel */,
+				BD9943001C2E973800016B8C /* xuliModel */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1195,14 +1238,8 @@
 		BD9973051C0F3FA700370820 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BD2610621C2C458000539FC1 /* UIView+SDExtension.h */,
-				BD2610631C2C458000539FC1 /* UIView+SDExtension.m */,
-				BD6A13521C23AD0B00B12291 /* XLGKGoodsCell.h */,
-				BD6A13531C23AD0B00B12291 /* XLGKGoodsCell.m */,
-				BD6A139D1C23AF0000B12291 /* XLGKGoodsCell.xib */,
-				BD6A13551C23AD1E00B12291 /* XLGKPictureCell.h */,
-				BD6A13561C23AD1E00B12291 /* XLGKPictureCell.m */,
-				BD6A139F1C23AF1600B12291 /* XLGKPictureCell.xib */,
+				BD9943031C2E979800016B8C /* zhuleiView */,
+				BD9943021C2E978400016B8C /* xuliView */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1214,6 +1251,10 @@
 				BD6A13411C239CD600B12291 /* TabContent.plist */,
 				BD9942FD1C2E8F3600016B8C /* 1d3e1426ed479bd0f38931ad5d78e0a3.jpg */,
 				BD260F891C2BB39300539FC1 /* InfoPList.strings */,
+				BD260FCF1C2BC77600539FC1 /* star2_Gray@2x.png */,
+				BD260FD01C2BC77600539FC1 /* star_icon@2x.png */,
+				BD260FD51C2BC77600539FC1 /* topic_Comment.png */,
+				BD260FD61C2BC77600539FC1 /* topic_Download.png */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
