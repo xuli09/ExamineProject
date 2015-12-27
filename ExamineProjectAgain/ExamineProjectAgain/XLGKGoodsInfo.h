@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface XLGKGoodsInfo : NSObject
+#import "JSONModel.h"
+@interface XLGKGoodsInfo : JSONModel
 
 @property (nonatomic,copy) NSString * chief_image;
 @property (nonatomic,copy) NSString * content;

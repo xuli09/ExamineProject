@@ -186,6 +186,16 @@
 		BD9972DF1C0F36CC00370820 /* ExamineProjectAgainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972DE1C0F36CC00370820 /* ExamineProjectAgainUITests.m */; };
 		BDB6DAAB1C2F84940033CBB7 /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAA81C2F84940033CBB7 /* XLViewController.m */; };
 		BDB6DAAC1C2F84940033CBB7 /* XLAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAAA1C2F84940033CBB7 /* XLAlbumViewController.m */; };
+		BDB6DAD51C2F9D8A0033CBB7 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DABE1C2F9D8A0033CBB7 /* JSONModel.m */; };
+		BDB6DAD61C2F9D8A0033CBB7 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAC01C2F9D8A0033CBB7 /* JSONModelArray.m */; };
+		BDB6DAD71C2F9D8A0033CBB7 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAC21C2F9D8A0033CBB7 /* JSONModelClassProperty.m */; };
+		BDB6DAD81C2F9D8A0033CBB7 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAC41C2F9D8A0033CBB7 /* JSONModelError.m */; };
+		BDB6DAD91C2F9D8A0033CBB7 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAC71C2F9D8A0033CBB7 /* NSArray+JSONModel.m */; };
+		BDB6DADA1C2F9D8A0033CBB7 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DACB1C2F9D8A0033CBB7 /* JSONAPI.m */; };
+		BDB6DADB1C2F9D8A0033CBB7 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DACD1C2F9D8A0033CBB7 /* JSONHTTPClient.m */; };
+		BDB6DADC1C2F9D8A0033CBB7 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DACF1C2F9D8A0033CBB7 /* JSONModel+networking.m */; };
+		BDB6DADD1C2F9D8A0033CBB7 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAD21C2F9D8A0033CBB7 /* JSONKeyMapper.m */; };
+		BDB6DADE1C2F9D8A0033CBB7 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAD41C2F9D8A0033CBB7 /* JSONValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -540,6 +550,27 @@
 		BDB6DAA91C2F84940033CBB7 /* XLAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAlbumViewController.h; sourceTree = "<group>"; };
 		BDB6DAAA1C2F84940033CBB7 /* XLAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAlbumViewController.m; sourceTree = "<group>"; };
 		BDB6DAAD1C2F84B50033CBB7 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		BDB6DABD1C2F9D8A0033CBB7 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		BDB6DABE1C2F9D8A0033CBB7 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		BDB6DABF1C2F9D8A0033CBB7 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		BDB6DAC01C2F9D8A0033CBB7 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		BDB6DAC11C2F9D8A0033CBB7 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		BDB6DAC21C2F9D8A0033CBB7 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		BDB6DAC31C2F9D8A0033CBB7 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		BDB6DAC41C2F9D8A0033CBB7 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		BDB6DAC61C2F9D8A0033CBB7 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		BDB6DAC71C2F9D8A0033CBB7 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		BDB6DAC81C2F9D8A0033CBB7 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		BDB6DACA1C2F9D8A0033CBB7 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		BDB6DACB1C2F9D8A0033CBB7 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		BDB6DACC1C2F9D8A0033CBB7 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		BDB6DACD1C2F9D8A0033CBB7 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		BDB6DACE1C2F9D8A0033CBB7 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		BDB6DACF1C2F9D8A0033CBB7 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		BDB6DAD11C2F9D8A0033CBB7 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		BDB6DAD21C2F9D8A0033CBB7 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		BDB6DAD31C2F9D8A0033CBB7 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		BDB6DAD41C2F9D8A0033CBB7 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1203,6 +1234,7 @@
 		BD9973001C0F3F5B00370820 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BDB6DABB1C2F9D8A0033CBB7 /* JSModel */,
 				BD9942D61C2E87D500016B8C /* MMProgressHUD */,
 				BD9942B01C2E7E3800016B8C /* UMSocial_Sdk_4.2.5 */,
 				BD2610231C2C430D00539FC1 /* libqrencode */,
@@ -1280,6 +1312,66 @@
 				BD9972C21C0F36CC00370820 /* Main.storyboard */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		BDB6DABB1C2F9D8A0033CBB7 /* JSModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DABC1C2F9D8A0033CBB7 /* JSONModel */,
+				BDB6DAC51C2F9D8A0033CBB7 /* JSONModelCategories */,
+				BDB6DAC81C2F9D8A0033CBB7 /* JSONModelLib.h */,
+				BDB6DAC91C2F9D8A0033CBB7 /* JSONModelNetworking */,
+				BDB6DAD01C2F9D8A0033CBB7 /* JSONModelTransformations */,
+			);
+			path = JSModel;
+			sourceTree = "<group>";
+		};
+		BDB6DABC1C2F9D8A0033CBB7 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DABD1C2F9D8A0033CBB7 /* JSONModel.h */,
+				BDB6DABE1C2F9D8A0033CBB7 /* JSONModel.m */,
+				BDB6DABF1C2F9D8A0033CBB7 /* JSONModelArray.h */,
+				BDB6DAC01C2F9D8A0033CBB7 /* JSONModelArray.m */,
+				BDB6DAC11C2F9D8A0033CBB7 /* JSONModelClassProperty.h */,
+				BDB6DAC21C2F9D8A0033CBB7 /* JSONModelClassProperty.m */,
+				BDB6DAC31C2F9D8A0033CBB7 /* JSONModelError.h */,
+				BDB6DAC41C2F9D8A0033CBB7 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		BDB6DAC51C2F9D8A0033CBB7 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DAC61C2F9D8A0033CBB7 /* NSArray+JSONModel.h */,
+				BDB6DAC71C2F9D8A0033CBB7 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		BDB6DAC91C2F9D8A0033CBB7 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DACA1C2F9D8A0033CBB7 /* JSONAPI.h */,
+				BDB6DACB1C2F9D8A0033CBB7 /* JSONAPI.m */,
+				BDB6DACC1C2F9D8A0033CBB7 /* JSONHTTPClient.h */,
+				BDB6DACD1C2F9D8A0033CBB7 /* JSONHTTPClient.m */,
+				BDB6DACE1C2F9D8A0033CBB7 /* JSONModel+networking.h */,
+				BDB6DACF1C2F9D8A0033CBB7 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		BDB6DAD01C2F9D8A0033CBB7 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DAD11C2F9D8A0033CBB7 /* JSONKeyMapper.h */,
+				BDB6DAD21C2F9D8A0033CBB7 /* JSONKeyMapper.m */,
+				BDB6DAD31C2F9D8A0033CBB7 /* JSONValueTransformer.h */,
+				BDB6DAD41C2F9D8A0033CBB7 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1502,12 +1594,14 @@
 				BD33A4231C27D9DE0067FD90 /* UIImageView+AFNetworking.m in Sources */,
 				BD33A4571C2AF2DB0067FD90 /* MJRefreshAutoFooter.m in Sources */,
 				BD33A45E1C2AF2DB0067FD90 /* MJRefreshAutoStateFooter.m in Sources */,
+				BDB6DADC1C2F9D8A0033CBB7 /* JSONModel+networking.m in Sources */,
 				BD2610591C2C430D00539FC1 /* MASConstraint.m in Sources */,
 				BD33A4611C2AF2DB0067FD90 /* MJRefreshBackStateFooter.m in Sources */,
 				BD33A4191C27D9DE0067FD90 /* AFNetworkReachabilityManager.m in Sources */,
 				BD260FE11C2BC77600539FC1 /* HotDetailViewController.m in Sources */,
 				BD33A4601C2AF2DB0067FD90 /* MJRefreshBackNormalFooter.m in Sources */,
 				BD33A4641C2AF2DB0067FD90 /* MJRefreshStateHeader.m in Sources */,
+				BDB6DAD81C2F9D8A0033CBB7 /* JSONModelError.m in Sources */,
 				BD33A4581C2AF2DB0067FD90 /* MJRefreshBackFooter.m in Sources */,
 				BD33A4161C27D9DE0067FD90 /* AFHTTPRequestOperation.m in Sources */,
 				BD33A45B1C2AF2DB0067FD90 /* MJRefreshHeader.m in Sources */,
@@ -1525,6 +1619,7 @@
 				BD260FED1C2BC77600539FC1 /* ZLScrollView.m in Sources */,
 				BD33A41E1C27D9DE0067FD90 /* AFURLSessionManager.m in Sources */,
 				BD2610541C2C430D00539FC1 /* qrspec.c in Sources */,
+				BDB6DADD1C2F9D8A0033CBB7 /* JSONKeyMapper.m in Sources */,
 				BD9942F51C2E87D500016B8C /* MMProgressHUD.m in Sources */,
 				BD6A13481C239D8F00B12291 /* XLGKOtherViewController.m in Sources */,
 				BD33A3E11C2793770067FD90 /* XLGKRequestInfo.m in Sources */,
@@ -1533,6 +1628,7 @@
 				BD9942F81C2E87D500016B8C /* MMProgressHUDWindow.m in Sources */,
 				BD9942F21C2E87D500016B8C /* MMLinearProgressView.m in Sources */,
 				BD260FAE1C2BC6CD00539FC1 /* FMResultSet.m in Sources */,
+				BDB6DADE1C2F9D8A0033CBB7 /* JSONValueTransformer.m in Sources */,
 				BD2610581C2C430D00539FC1 /* MASCompositeConstraint.m in Sources */,
 				BD260FE41C2BC77600539FC1 /* MyCollectionViewCellNormal.m in Sources */,
 				BD26105B1C2C430D00539FC1 /* MASLayoutConstraint.m in Sources */,
@@ -1544,6 +1640,7 @@
 				BD26105C1C2C430D00539FC1 /* MASViewAttribute.m in Sources */,
 				BD26105A1C2C430D00539FC1 /* MASConstraintMaker.m in Sources */,
 				BD2610511C2C430D00539FC1 /* QRCodeGenerator.m in Sources */,
+				BDB6DAD51C2F9D8A0033CBB7 /* JSONModel.m in Sources */,
 				BD260FE21C2BC77600539FC1 /* LabelHeader.m in Sources */,
 				BD2610551C2C430D00539FC1 /* rscode.c in Sources */,
 				BD6A133C1C239B5A00B12291 /* XLGKPictureController.m in Sources */,
@@ -1555,6 +1652,7 @@
 				BD26105E1C2C430D00539FC1 /* NSArray+MASAdditions.m in Sources */,
 				BD6A134B1C239DAC00B12291 /* XLGKSettingViewController.m in Sources */,
 				BD33A4621C2AF2DB0067FD90 /* MJRefreshGifHeader.m in Sources */,
+				BDB6DADB1C2F9D8A0033CBB7 /* JSONHTTPClient.m in Sources */,
 				BD6A13331C239A4100B12291 /* XLGKTabBarController.m in Sources */,
 				BD33A41A1C27D9DE0067FD90 /* AFSecurityPolicy.m in Sources */,
 				BD26105D1C2C430D00539FC1 /* MASViewConstraint.m in Sources */,
@@ -1570,14 +1668,18 @@
 				BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */,
 				BD33A4171C27D9DE0067FD90 /* AFHTTPRequestOperationManager.m in Sources */,
 				BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */,
+				BDB6DAD61C2F9D8A0033CBB7 /* JSONModelArray.m in Sources */,
 				BDB6DAAB1C2F84940033CBB7 /* XLViewController.m in Sources */,
 				BD260FE31C2BC77600539FC1 /* MyCollectionViewCell.m in Sources */,
+				BDB6DAD71C2F9D8A0033CBB7 /* JSONModelClassProperty.m in Sources */,
 				BD9942F41C2E87D500016B8C /* MMProgressHUD+Class.m in Sources */,
 				BD2610611C2C430D00539FC1 /* ViewController+MASAdditions.m in Sources */,
 				BD33A4591C2AF2DB0067FD90 /* MJRefreshComponent.m in Sources */,
+				BDB6DAD91C2F9D8A0033CBB7 /* NSArray+JSONModel.m in Sources */,
 				BD33A41D1C27D9DE0067FD90 /* AFURLResponseSerialization.m in Sources */,
 				BD33A41F1C27D9DE0067FD90 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				BD9942F71C2E87D500016B8C /* MMProgressHUDViewController.m in Sources */,
+				BDB6DADA1C2F9D8A0033CBB7 /* JSONAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
