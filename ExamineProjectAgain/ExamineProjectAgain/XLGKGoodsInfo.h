@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import "JSONModel.h"
+//继承JSONModel
 @interface XLGKGoodsInfo : JSONModel
 
 @property (nonatomic,copy) NSString * chief_image;
 @property (nonatomic,copy) NSString * content;
 @property (nonatomic,copy) NSString * like_count;
 @property (nonatomic,copy) NSString * post_time;
+
+
 
 
 @end
