@@ -32,15 +32,17 @@
     XLGKGoodsViewController * goods = [[XLGKGoodsViewController alloc]init];
     XLGKPictureController * picture = [[XLGKPictureController alloc]init];
     
-    //为滚动视图添加内容视图
+    //创建滚动视图
     self.myScrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 64, WIDTH, HEIGHT - 64)];
     self.myScrollView.delegate = self;
     self.myScrollView.pagingEnabled = YES;
     self.myScrollView.contentSize = CGSizeMake(WIDTH * 3, HEIGHT - 64);
     [self.view addSubview:self.myScrollView];
     
+    //为滚动视图添加内容视图
     [self.myScrollView addSubview:goods.view];
     [self.myScrollView addSubview:picture.view];
+    
     
     [self addChildViewController:goods];
     [self addChildViewController:picture];
@@ -85,6 +87,7 @@
         self.lineView.frame = CGRectMake(WIDTH / 2 * (btn.tag - 1), 54, WIDTH / 2, 5);
     } completion:nil];
 }
+#pragma mark UIScrollViewDelegate
 -(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     int page = scrollView.contentOffset.x / WIDTH;

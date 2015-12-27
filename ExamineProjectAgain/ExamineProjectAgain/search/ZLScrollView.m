@@ -24,7 +24,6 @@
     
     if (self = [super initWithFrame:frame]) {
         
-        _timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(runLoopImages) userInfo:nil repeats:YES];
     }
     
     return self;
@@ -32,6 +31,9 @@
 
 -(void)addImageArrayWithArray:(NSArray *)imageArray IsFromWeb:(BOOL)isFromWeb PlaceHolderImage:(UIImage *)image{
    
+    //有数据后，创建定时器，来达到循环滚动的目的
+    _timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(runLoopImages) userInfo:nil repeats:YES];
+
     _imageTotalCount = imageArray.count;
     
     _scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
@@ -53,7 +55,8 @@
     for (int i = 0; i<imageArray.count ; i++) {
         
         UIImageView *imageV = [[UIImageView alloc]initWithFrame:CGRectMake(i*self.frame.size.width, 0, self.frame.size.width, self.frame.size.height)];
-        
+       
+        //判断是加载网络图片还是本地图片
         if (isFromWeb == NO) {
             
             [imageV setImage:[UIImage imageNamed:imageArray[i]]];
@@ -75,6 +78,7 @@
         [imageV addGestureRecognizer:tap];
     }
     
+    //因为是创建自动循环滚动,所以在最后一张的imageview上 再加上图片数组的第0个元素的图片
     UIImageView *lastView = [[UIImageView alloc]initWithFrame:CGRectMake(self.frame.size.width * imageArray.count, 0, self.frame.size.width, self.frame.size.height)];
     lastView.userInteractionEnabled = YES;
     lastView.tag = 100;
@@ -97,6 +101,7 @@
     
     [_scrollView addSubview:lastView];
     
+    //分页控件
     _pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake((self.frame.size.width - 300)/2, self.frame.size.height - 20 - 20, 300, 20)];
     
     _pageControl.currentPage = 1;

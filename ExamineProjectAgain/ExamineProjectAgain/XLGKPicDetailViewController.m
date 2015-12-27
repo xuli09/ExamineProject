@@ -26,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //添加web视图 显示web数据
     UIWebView * webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     NSURL * url = [NSURL URLWithString:[NSString stringWithFormat:PICTUREDETAILPATH,self.article_id]];
     NSURLRequest * request = [NSURLRequest requestWithURL:url];

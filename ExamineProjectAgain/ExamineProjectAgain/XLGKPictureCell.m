@@ -11,6 +11,7 @@
 
 @implementation XLGKPictureCell
 
+//为单元格添加数据
 -(void)showInfoFromDic:(NSDictionary *)everyDic
 {
     NSString * content = everyDic[@"content"];

@@ -55,7 +55,6 @@
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoC-Q1-IN6">
                         <rect key="frame" x="18" y="318" width="339" height="53"/>
-                        <color key="backgroundColor" red="0.51256630454011098" green="1" blue="0.11301207155204507" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="53" id="71B-oU-BeV"/>
                         </constraints>

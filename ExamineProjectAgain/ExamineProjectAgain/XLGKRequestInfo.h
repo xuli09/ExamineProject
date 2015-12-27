@@ -11,6 +11,7 @@
 //创建协议
 @protocol sendRequestInfo <NSObject>
 
+//通过代理方法传值
 -(void)requestInfoWithData:(NSData *)data;
 
 @end

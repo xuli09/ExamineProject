@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LabelHeader : UICollectionReusableView
-
+//公开一个方法 方便调用
 -(void)creatUIWithTitle:(NSString *)title;
 @end

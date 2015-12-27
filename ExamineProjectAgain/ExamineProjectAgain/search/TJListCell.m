@@ -85,6 +85,14 @@
     
     [self.contentView addSubview:self.notelabel];
     
+    
+    self.descLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, [UIScreen mainScreen].bounds.size.width - 20,20)];
+    
+    self.descLabel.font = [UIFont systemFontOfSize:17];
+    
+    self.descLabel.numberOfLines = 0;
+    [self.contentView addSubview:self.descLabel];
+    
 }
 -(void)click:(UIButton *)button{
     
@@ -100,7 +108,7 @@
     
     [self.delegate isCollectedWithSelected:button.selected DataDic:_dic];
 }
--(void)configCellWithDic:(NSDictionary *)dic IsCollected:(BOOL)isCollected{
+-(void)configCellWithDic:(NSDictionary *)dic IsCollected:(BOOL)isCollected DescText:(NSString *)desc{
   
     _dic = dic;
     
@@ -122,6 +130,12 @@
     
     self.likelabel.text = [NSString stringWithFormat:@"%@",[dic objectForKey:@"like_count"]];
    
+    //动态计算desc的高度
+    CGRect rect = [desc boundingRectWithSize:CGSizeMake([UIScreen mainScreen].bounds.size.width - 20, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17]} context:nil];
+    //重置descLabel的frame，其实就是重置了一下高度
+    self.descLabel.frame = CGRectMake(10, 100, rect.size.width, rect.size.height);
+    
+    self.descLabel.text = desc; 
 }
 - (void)awakeFromNib {
     // Initialization code

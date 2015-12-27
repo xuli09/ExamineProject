@@ -10,6 +10,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "XLGKQRCodeViewController.h"
 #import "UMSocial.h"
+#import "XLViewController.h"
 @interface XLGKSettingViewController ()<UMSocialUIDelegate>
 {
     UITableView * table;
@@ -31,7 +32,7 @@
     
     //初始化数据源信息
     dataSource = [[NSMutableArray alloc]init];
-    NSArray * arr1 = @[@"微信分享",@"分享到微博",@"App Store评分",@"扫一扫"];
+    NSArray * arr1 = @[@"分享到微博",@"App Store评分",@"扫一扫"];
     NSArray * arr2 = @[@"清除图片缓存",@"意见反馈",@"POST上传下载",@"本地推送"];
     [dataSource addObject:arr1];
     [dataSource addObject:arr2];
@@ -48,6 +49,11 @@
     [btn addTarget:self action:@selector(pressBtn:) forControlEvents:UIControlEventTouchUpInside];
     table.tableFooterView = btn;
 }
+-(void)pressBtn:(id)sender
+{
+    NSLog(@"登录");
+}
+#pragma mark UITableViewDelegate
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return dataSource.count;
@@ -72,11 +78,7 @@
 {
     if(indexPath.section == 0)
     {
-        if(indexPath.row == 0)
-        {
-            
-        }
-        else if (indexPath.row == 1)
+       if (indexPath.row == 0)
         {
             //分享操作...友盟分享、ShareSDK分享
             /*
@@ -87,7 +89,7 @@
              */
             [UMSocialSnsService presentSnsIconSheetView:self appKey:@"5640990267e58e77f8001408" shareText:@"测试ing~~~" shareImage:[UIImage imageNamed:@"ni_png_0968.png"] shareToSnsNames:@[UMShareToSina,UMShareToRenren,UMShareToEmail] delegate:self];
         }
-        else if(indexPath.row == 2)
+        else if(indexPath.row == 1)
         {
             
         }
@@ -128,6 +130,10 @@
         }
         else if (indexPath.row == 2)
         {
+            
+            //POST 上传下载
+            XLViewController * viewController = [[XLViewController alloc]init];
+            [self.navigationController pushViewController:viewController  animated:YES];
             
         }
         else if (indexPath.row == 3)

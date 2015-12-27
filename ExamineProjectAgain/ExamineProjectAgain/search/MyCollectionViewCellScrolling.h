@@ -16,6 +16,9 @@
 @end
 @interface MyCollectionViewCellScrolling : UICollectionViewCell
 @property (nonatomic,weak)id<MyCollectionViewCellScrollingDelegate>delegate;
+/*!
+ 根据传递过来的数组数来设计scrollview的contentsize
+ */
 -(void)creatItemsWithArray:(NSArray *)itemArray;
 
 @end

@@ -46,17 +46,20 @@
 }
 -(void)getData{
     
-    //开始数据请求
+    //开始数据请求 加载指示器
     [MMProgressHUD setPresentationStyle:MMProgressHUDPresentationStyleExpand];
     
     [MMProgressHUD showDeterminateProgressWithTitle:nil status:@"正在加载..."];
     
+    //创建网络请求
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    
+    //关闭自动解析功能
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     
+    //GET方式请求网络数据
     [manager GET:@"http://api.guoku.com/mobile/v4/discover/?api_key=0b19c2b93687347e95c6b6f5cc91bb87&sign=b6fbc461c473452b1fa344ae6d1af2c2" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-       
+      
+        //第一层数据是一个字典，所以创建一个字典来接收第一波数据
         NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingAllowFragments error:nil];
         _dataDic = [[NSMutableDictionary alloc]initWithDictionary:dic];
         
@@ -65,10 +68,15 @@
         
         _dataArray = [NSMutableArray arrayWithArray:entitiesArray];
 
+        //collection重新刷新数据
         [_collectionView reloadData];
+        
+        //网络请求结束后，指示器关掉
         [MMProgressHUD dismissWithSuccess:@"加载成功"];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+        //网络请求失败，通过指示器告知失败原因
         [MMProgressHUD dismissWithError:[NSString stringWithFormat:@"%@",error.description]];
     }];
 }
@@ -77,7 +85,9 @@
     
     UICollectionViewFlowLayout *layOut = [[UICollectionViewFlowLayout alloc]init];
     
+    //规定CollectionView的约束
     _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layOut];
+    
     _collectionView.backgroundColor = [UIColor whiteColor];
     
     //注册第一组的头
@@ -106,10 +116,13 @@
     [self.view addSubview:_collectionView];
     
 }
+#pragma mark--UICollectionView代理方法--
+//组数
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
     
     return 4;
 }
+//根据每组来规定每组不同的item数量
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
     
     if (section == 0) {
@@ -131,7 +144,7 @@
     }
     return 0;
 }
-
+//根据组数定制每个不同的item风格
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
     if (indexPath.section == 0) {
@@ -208,6 +221,7 @@
     [self.navigationController pushViewController:tjList animated:YES];
 
 }
+//根据组头的不同风格样式，来生成不同的头视图
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
    
     if (indexPath.section == 0) {
@@ -257,6 +271,7 @@
    
     NSLog(@"%ld",imageIndex);
 }
+//头视图的大小
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
     
     if (section == 0) {
@@ -295,8 +310,14 @@
             
         case 3:{
             
-            return CGSizeMake(100, 100);
-
+            if (self.view.frame.size.width>320) {
+                
+                return CGSizeMake(100, 100);
+                
+            }else{
+                
+                return CGSizeMake(80, 80);
+            }
         }
             break;
         default:
@@ -305,10 +326,21 @@
     
     return CGSizeMake(0, 0);
 }
-
+//确定每个item的距离
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     
-    CGFloat xSpace = (self.view.frame.size.width - 300)/4;
+    CGFloat xSpace;
+    
+    if (self.view.frame.size.width>320) {
+        
+        xSpace = (self.view.frame.size.width - 300)/4;
+        
+    }else{
+        
+        xSpace = (self.view.frame.size.width - 240)/4;
+        
+        
+    }
     if (section == 3) {
         
         return UIEdgeInsetsMake(5, xSpace, 5, xSpace);

@@ -184,6 +184,8 @@
 		BD9972C91C0F36CC00370820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9972C71C0F36CC00370820 /* LaunchScreen.storyboard */; };
 		BD9972D41C0F36CC00370820 /* ExamineProjectAgainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972D31C0F36CC00370820 /* ExamineProjectAgainTests.m */; };
 		BD9972DF1C0F36CC00370820 /* ExamineProjectAgainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9972DE1C0F36CC00370820 /* ExamineProjectAgainUITests.m */; };
+		BDB6DAAB1C2F84940033CBB7 /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAA81C2F84940033CBB7 /* XLViewController.m */; };
+		BDB6DAAC1C2F84940033CBB7 /* XLAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAAA1C2F84940033CBB7 /* XLAlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -533,6 +535,11 @@
 		BD9972DA1C0F36CC00370820 /* ExamineProjectAgainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamineProjectAgainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9972DE1C0F36CC00370820 /* ExamineProjectAgainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamineProjectAgainUITests.m; sourceTree = "<group>"; };
 		BD9972E01C0F36CC00370820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB6DAA71C2F84940033CBB7 /* XLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		BDB6DAA81C2F84940033CBB7 /* XLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		BDB6DAA91C2F84940033CBB7 /* XLAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAlbumViewController.h; sourceTree = "<group>"; };
+		BDB6DAAA1C2F84940033CBB7 /* XLAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAlbumViewController.m; sourceTree = "<group>"; };
+		BDB6DAAD1C2F84B50033CBB7 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1053,6 +1060,10 @@
 				BD1606471C2D383D001DEEF9 /* XLGKLoadViewController.h */,
 				BD1606481C2D383D001DEEF9 /* XLGKLoadViewController.m */,
 				BD1606491C2D383D001DEEF9 /* XLGKLoadViewController.xib */,
+				BDB6DAA71C2F84940033CBB7 /* XLViewController.h */,
+				BDB6DAA81C2F84940033CBB7 /* XLViewController.m */,
+				BDB6DAA91C2F84940033CBB7 /* XLAlbumViewController.h */,
+				BDB6DAAA1C2F84940033CBB7 /* XLAlbumViewController.m */,
 			);
 			name = xuli;
 			sourceTree = "<group>";
@@ -1183,6 +1194,7 @@
 		BD9972FF1C0F3F4800370820 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BDB6DAAD1C2F84B50033CBB7 /* Path.h */,
 				BD33A3DE1C27905A0067FD90 /* Header.h */,
 			);
 			name = Common;
@@ -1461,6 +1473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB6DAAC1C2F84940033CBB7 /* XLAlbumViewController.m in Sources */,
 				BD2610521C2C430D00539FC1 /* qrencode.c in Sources */,
 				BD33A45F1C2AF2DB0067FD90 /* MJRefreshBackGifFooter.m in Sources */,
 				BD16064A1C2D383D001DEEF9 /* XLGKLoadViewController.m in Sources */,
@@ -1557,6 +1570,7 @@
 				BD6A13571C23AD1E00B12291 /* XLGKPictureCell.m in Sources */,
 				BD33A4171C27D9DE0067FD90 /* AFHTTPRequestOperationManager.m in Sources */,
 				BD6A13391C239ACF00B12291 /* XLGKGoodsViewController.m in Sources */,
+				BDB6DAAB1C2F84940033CBB7 /* XLViewController.m in Sources */,
 				BD260FE31C2BC77600539FC1 /* MyCollectionViewCell.m in Sources */,
 				BD9942F41C2E87D500016B8C /* MMProgressHUD+Class.m in Sources */,
 				BD2610611C2C430D00539FC1 /* ViewController+MASAdditions.m in Sources */,

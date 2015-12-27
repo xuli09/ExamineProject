@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //创建一个webview 然后让webviewload一个网络请求
     _webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
     
     [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://m.guoku.com/articles/%@/",self.urlId]]]];

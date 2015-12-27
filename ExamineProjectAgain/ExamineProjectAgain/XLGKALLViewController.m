@@ -35,6 +35,7 @@
     
     [self createTableView];
     
+    //初始化页码号
     self.currentPage = 1;
     [self startLoading];
     [self startRefreshing];
@@ -59,6 +60,7 @@
 //开始请求数据
 -(void)startRequestInfo:(NSString *)path
 {
+#warning 由于接口问题 所以只能写刷新加载的代码  没有数据
     XLGKRequestInfo * requestInfo = [[XLGKRequestInfo alloc]init];
     requestInfo.delegate = self;
     //path = [NSString stringWithFormat:path,self.currentPage];
@@ -164,6 +166,7 @@
 #pragma mark 加载刷新
 -(void)startLoading
 {
+    //添加加载刷新的图片界面
     MJRefreshAutoGifFooter * footer = [MJRefreshAutoGifFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadData)];
     NSArray * imageArr = @[[UIImage imageNamed:@"ni_png_0968.png"],[UIImage imageNamed:@"ni_png_0969.png"]];
     [footer setImages:imageArr duration:1 forState:MJRefreshStateRefreshing];
@@ -177,6 +180,7 @@
 }
 -(void)loadData
 {
+    //页码号递增
     self.currentPage ++;
     [self startRequestInfo:self.rootPath];
     [myTableView.footer endRefreshing];
@@ -195,7 +199,7 @@
     
     //松开就可以刷新
     [header setImages:@[[UIImage imageNamed:@"ni_png_0072.png"]] duration:1 forState:MJRefreshStatePulling];
-    [header setTitle:@"丽姐正在努力加载..." forState:MJRefreshStatePulling];
+    [header setTitle:@"接口问题只有刷新代码没有真实数据" forState:MJRefreshStatePulling];
     
     myTableView.header = header;
 }

@@ -14,7 +14,11 @@
 @end
 
 @implementation AppDelegate
-
+//模拟内存警告需要调用的APP方法，还需要去相应的类里面去注册通知和调用didrecivememorywarning方法
+-(void)applicationDidReceiveMemoryWarning:(UIApplication *)application{
+    
+    NSLog(@"Appdelegate中调用DidReceiveMemoryWarning方法");
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     

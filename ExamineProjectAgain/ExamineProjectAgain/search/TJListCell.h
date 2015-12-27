@@ -31,7 +31,9 @@
 
 @property (nonatomic,strong)UILabel *notelabel;
 
--(void)configCellWithDic:(NSDictionary *)dic IsCollected:(BOOL)isCollected;
+@property (nonatomic,strong)UILabel *descLabel;
+
+-(void)configCellWithDic:(NSDictionary *)dic IsCollected:(BOOL)isCollected DescText:(NSString *)desc;
 
 @property (nonatomic,assign)BOOL isCollected;
 

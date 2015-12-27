@@ -57,6 +57,7 @@
         [viewContr preferredStatusBarStyle];
         
     }
+    //为tabBarController添加多个子视图控制器
     self.viewControllers = allCtrs;
     self.tabBar.backgroundImage = [UIImage imageNamed:@"tabbar_bg.png"];
 }

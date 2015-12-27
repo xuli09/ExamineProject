@@ -10,6 +10,8 @@
 #import "UIImageView+AFNetworking.h"
 @implementation MyCollectionViewCellScrolling{
     
+    //为了避免重复创建scrollview 所以创建一个全局变量
+
     UIScrollView *scrollView;
 }
 -(id)initWithFrame:(CGRect)frame{
@@ -37,16 +39,18 @@
     for (int i = 0; i<itemArray.count; i++) {
         
         NSDictionary * dic = itemArray[i];
+       
         NSDictionary * category = dic[@"category"];
         
         UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10+i*(150+10), 10, 150, 150)];
         
         [imageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@",category[@"cover_url"]]]];
-        
+        //打开交互
         imageView.userInteractionEnabled = YES;
         
         [scrollView addSubview:imageView];
-        
+       
+        //创建一个轻触手势
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clickImage:)];
        
         imageView.tag = 100+i;
@@ -71,6 +75,7 @@
         [imageView addSubview:detailLabel];
     }
 }
+//点击图片传递tag值
 -(void)clickImage:(UITapGestureRecognizer *)tap{
     
     

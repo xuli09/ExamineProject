@@ -14,6 +14,7 @@
 {
     [super viewDidLoad];
     
+    //设置当前界面的数据显示接口
     self.rootPath = PICTUREPATH;
     [self startRequestInfo:PICTUREPATH];
 }
